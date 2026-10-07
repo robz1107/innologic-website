@@ -3,407 +3,309 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Innologic | Business software that follows your whole day</title>
-<meta name="description" content="Innologic is ERP software for trading, retail and distribution companies. Orders, stock, purchasing, money and tax in one calm system, set up and supported by the people who build it.">
-<meta name="theme-color" content="#fbf7f0">
+<title>Innologic | ERP software for trading, retail and distribution companies</title>
+<meta name="description" content="Innologic builds and supports ERP software for small and mid-size trading, retail and distribution companies: sales, purchasing, stock, point of sale, accounting and Indonesian tax tools in one system.">
+<meta name="theme-color" content="#0b2a3d">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Innologic | Business software that follows your whole day">
-<meta property="og:description" content="Orders, stock, purchasing, money and tax in one calm system. Set up for you, supported by the people who build it.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%231f6f5c'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23fbf7f0'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23e8742a' stroke-width='2'/%3E%3C/svg%3E">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Innologic","description":"ERP software and support for trading, retail and distribution companies."}</script>
+<meta property="og:title" content="Innologic | ERP software for trading, retail and distribution companies">
+<meta property="og:description" content="Sales, purchasing, stock, point of sale, accounting and tax tools in one system. Set up for you, supported by the people who build it.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b2a3d'/%3E%3Cpath d='M10 22l6-12 6 12' fill='none' stroke='%232dd4bf' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='10' cy='22' r='2.4' fill='%232dd4bf'/%3E%3Ccircle cx='16' cy='10' r='2.4' fill='%232dd4bf'/%3E%3Ccircle cx='22' cy='22' r='2.4' fill='%232dd4bf'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Innologic","description":"ERP software and support for trading, retail and distribution companies."}
+</script>
 <style>
 :root {
-  --bg: #fbf7f0; --paper: #ffffff; --sand: #f2eadc; --ink: #1f2a2e; --muted: #5c6a6e; --line: #e4dccb;
-  --green: #1f6f5c; --green-ink: #ffffff; --green-soft: #dcefe8; --orange: #e8742a; --orange-soft: #fde7d6;
-  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --shadow: 0 2px 4px rgba(31,42,46,.05), 0 18px 40px rgba(31,42,46,.10);
+  --bg: #f7f9fb; --surface: #ffffff; --surface-2: #eef3f7; --ink: #10222f; --muted: #52667a; --line: #d9e2ea;
+  --brand: #0b2a3d; --accent: #0f9d8a; --accent-ink: #ffffff; --accent-soft: #dff5f1; --hero-a: #0b2a3d; --hero-b: #14506a; --hero-ink: #ffffff;
+  --radius: 14px; --shadow: 0 1px 2px rgba(16,34,47,.06), 0 8px 24px rgba(16,34,47,.06);
 }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #14201f; --paper: #1b2c2a; --sand: #1f3331; --ink: #f1ece2; --muted: #a9b9b4; --line: #2f4743;
-    --green: #4fc3a4; --green-ink: #0d2420; --green-soft: #1f4540; --orange: #f08a47; --orange-soft: #43301f; --shadow: 0 18px 40px rgba(0,0,0,.35); }
+  :root { --bg: #0c1a24; --surface: #112634; --surface-2: #163042; --ink: #e8f0f5; --muted: #9db3c3; --line: #234559;
+    --brand: #e8f0f5; --accent: #2dd4bf; --accent-ink: #062a25; --accent-soft: #123a3a; --hero-a: #071620; --hero-b: #0e3a50; --shadow: none; }
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; font: 17px/1.65 var(--sans); background: var(--bg); color: var(--ink); }
-a { color: var(--green); }
-.wrap { width: min(1100px, 100% - 36px); margin-inline: auto; }
-.skip { position: absolute; left: -999px; top: 8px; background: var(--paper); padding: 8px 12px; border-radius: 8px; z-index: 100; }
+body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); }
+img, svg { max-width: 100%; }
+a { color: var(--accent); }
+.wrap { width: min(1120px, 100% - 32px); margin-inline: auto; }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--surface); color: var(--ink); padding: 8px 12px; border-radius: 8px; z-index: 100; }
 .skip:focus { left: 8px; }
-:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; border-radius: 6px; }
-h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -.01em; line-height: 1.15; margin: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
 
-/* top bar: stays at the top so the menu is always within reach */
-html { scroll-padding-top: 84px; }
-.topbar { position: sticky; top: 0; z-index: 60; background: color-mix(in srgb, var(--bg) 92%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid transparent; transition: border-color .2s; }
-.topbar.scrolled { border-bottom-color: var(--line); }
-.top { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
-.actions { display: flex; align-items: center; gap: 12px; }
-.burger { width: 46px; height: 46px; border-radius: 50%; border: 2px solid var(--ink); background: transparent; cursor: pointer; display: grid; place-content: center; gap: 5px; padding: 0; }
-.burger span { display: block; width: 20px; height: 2px; background: var(--ink); border-radius: 2px; transition: transform .25s, opacity .2s; }
-.burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
-.burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-.scrim { position: fixed; inset: 0; background: rgba(15,25,24,.5); z-index: 70; }
-.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(340px, 88vw); background: var(--paper); z-index: 80; padding: 22px 24px 28px; display: flex; flex-direction: column; gap: 14px; overflow-y: auto;
-  box-shadow: -18px 0 40px rgba(0,0,0,.18); transform: translateX(105%); visibility: hidden; transition: transform .28s ease, visibility 0s .28s; }
-.drawer.open { transform: none; visibility: visible; transition: transform .28s ease; }
-.drawer-head { padding: 4px 0 14px; border-bottom: 1px solid var(--line); margin-bottom: 4px; padding-right: 56px; }
-.drawer ul { list-style: none; margin: 0 0 12px; padding: 0; }
-.drawer li a { display: block; padding: 14px 4px; font: 700 1.25rem var(--serif); color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
-.drawer li a:hover { color: var(--green); }
-.drawer .btn { justify-content: center; }
-body.menu-open { overflow: hidden; }
-.drawer-close { position: absolute; top: 14px; right: 18px; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--ink); background: transparent; color: var(--ink); font-size: 1.6rem; line-height: 1; cursor: pointer; display: grid; place-items: center; padding: 0; }
-@media (max-width: 420px) { .actions .btn-small { padding: 10px 14px; font-size: .9rem; } }
-@media (prefers-reduced-motion: reduce) { .drawer, .drawer.open, .burger span { transition: none; } }
-.brand { display: flex; align-items: center; gap: 10px; font-family: var(--serif); font-weight: 700; font-size: 1.5rem; color: var(--ink); text-decoration: none; }
-.brand i { width: 30px; height: 30px; border-radius: 50%; background: var(--green); position: relative; display: block; }
-.brand i::after { content: ""; position: absolute; inset: 5px; border-radius: 50%; border: 2px solid var(--orange); }
-.btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 24px; border-radius: 999px; border: 2px solid transparent; font: 700 1rem var(--sans); text-decoration: none; cursor: pointer; }
-.btn svg { width: 20px; height: 20px; flex: none; }
-.btn-green { background: var(--green); color: var(--green-ink); }
-.btn-green:hover { filter: brightness(1.08); }
-.btn-line { border-color: var(--ink); color: var(--ink); background: transparent; }
-.btn-line:hover { background: var(--ink); color: var(--bg); }
-.btn-small { padding: 10px 18px; font-size: .95rem; }
-
-/* hero */
-.hero { padding: 36px 0 84px; }
-.hero .grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 56px; align-items: center; }
-.kicker { display: inline-block; background: var(--orange-soft); color: var(--orange); font-weight: 700; font-size: .85rem; padding: 6px 14px; border-radius: 999px; margin-bottom: 20px; }
-.hero h1 { font-size: clamp(2.3rem, 5.2vw, 4rem); }
-.hero h1 em { font-style: italic; color: var(--green); }
-.hero p { color: var(--muted); font-size: 1.2rem; margin: 22px 0 30px; max-width: 34em; }
-.cta { display: flex; flex-wrap: wrap; gap: 12px; }
-.hero .fine { margin-top: 18px; font-size: .95rem; color: var(--muted); }
-@media (max-width: 920px) { .hero .grid { grid-template-columns: minmax(0, 1fr); gap: 40px; } .shot { transform: none; } }
-
-/* app picture (an illustration with sample numbers) */
-.shot { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; transform: rotate(1.2deg); }
-.shot .bar { display: flex; gap: 7px; padding: 12px 16px; background: var(--sand); border-bottom: 1px solid var(--line); align-items: center; }
-.shot .bar b { width: 11px; height: 11px; border-radius: 50%; background: var(--line); }
-.shot .bar span { margin-left: 10px; font-size: .78rem; color: var(--muted); }
-.shot .body { display: grid; grid-template-columns: 112px minmax(0, 1fr); min-height: 300px; }
-.shot .main { min-width: 0; }
-.rows div span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 8px; }
-.shot nav { background: var(--sand); padding: 14px 10px; display: grid; gap: 6px; align-content: start; font-size: .78rem; }
-.shot nav span { padding: 7px 9px; border-radius: 8px; color: var(--muted); }
-.shot nav span.on { background: var(--paper); color: var(--ink); font-weight: 700; }
-.shot .main { padding: 16px; display: grid; gap: 14px; align-content: start; }
-.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-.kpi { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
-.kpi small { color: var(--muted); font-size: .7rem; display: block; }
-.kpi b { font-family: var(--serif); font-size: 1.15rem; }
-.kpi em { font-style: normal; font-size: .7rem; color: var(--green); font-weight: 700; }
-.bars { display: flex; align-items: flex-end; gap: 7px; height: 96px; padding: 4px 4px 0; border-bottom: 1px solid var(--line); }
-.bars i { flex: 1; background: var(--green); border-radius: 5px 5px 0 0; opacity: .85; }
-.bars i:nth-child(odd) { background: var(--orange); opacity: .8; }
-.rows { display: grid; gap: 6px; font-size: .78rem; }
-.rows div { display: flex; justify-content: space-between; padding: 7px 10px; border-radius: 8px; background: var(--sand); }
-.rows span:last-child { font-weight: 700; }
-.shot-note { font-size: .78rem; color: var(--muted); text-align: right; margin: 10px 4px 0; }
-@media (max-width: 520px) { .shot .body { grid-template-columns: minmax(0, 1fr); } .shot nav { display: none; } .kpis { grid-template-columns: 1fr 1fr; } .kpi:last-child { display: none; } }
-
-section { padding: 84px 0; }
-.band { background: var(--sand); }
-.head { max-width: 40rem; margin-bottom: 44px; }
-.head h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); }
-.head p { color: var(--muted); margin: 14px 0 0; font-size: 1.1rem; }
-
-/* a day */
-.day { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px 40px; position: relative; }
-.day::before { content: ""; display: none; position: absolute; }
-.moment { position: relative; padding: 0; }
-.moment .dot { width: 44px; height: 44px; border-radius: 50%; background: var(--green); color: var(--green-ink); display: grid; place-items: center; font-weight: 800; position: relative; z-index: 1; font-family: var(--serif); }
-.moment h3 { font-size: 1.2rem; margin: 18px 0 8px; }
-.moment p { margin: 0; color: var(--muted); font-size: .98rem; }
-.moment small { display: block; margin-top: 10px; color: var(--orange); font-weight: 700; }
-@media (max-width: 860px) {
-  .day { grid-template-columns: minmax(0, 1fr); gap: 36px; }
-  .day::before { display: block; left: 21px; right: auto; width: 2px; top: 0; bottom: 0; height: auto; background: var(--line); }
-  .moment { display: grid; grid-template-columns: 44px 1fr; gap: 0 18px; padding: 0; }
-  .moment h3 { margin: 0 0 6px; }
-  .moment .dot { grid-row: span 3; }
+/* header */
+header.site { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.nav { display: flex; align-items: center; gap: 24px; min-height: 64px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.25rem; letter-spacing: -.02em; color: var(--brand); text-decoration: none; }
+.logo svg { width: 32px; height: 32px; flex: none; }
+.nav ul { display: flex; gap: 22px; list-style: none; margin: 0 0 0 auto; padding: 0; }
+.nav ul a { color: var(--ink); text-decoration: none; font-weight: 550; font-size: .95rem; }
+.nav ul a:hover { color: var(--accent); }
+.menu-btn { display: none; margin-left: auto; background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 8px 12px; font: inherit; cursor: pointer; }
+@media (max-width: 820px) {
+  .menu-btn { display: block; }
+  .nav ul { display: none; position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--surface); border-bottom: 1px solid var(--line); margin: 0; padding: 8px 16px 16px; }
+  .nav ul.open { display: flex; }
+  .nav ul a { display: block; padding: 12px 0; }
 }
 
-/* tabs */
-.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
-.tab { background: var(--paper); border: 1px solid var(--line); color: var(--ink); padding: 11px 20px; border-radius: 999px; font: 650 .98rem var(--sans); cursor: pointer; }
-.tab[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.panel { background: var(--paper); border: 1px solid var(--line); border-radius: 20px; padding: 34px; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
-.panel[hidden] { display: none; }
-.panel h3 { font-size: 1.6rem; margin-bottom: 10px; }
-.panel p { color: var(--muted); margin: 0; }
-.panel ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; align-content: start; }
-.panel li { display: flex; gap: 12px; }
-.panel li::before { content: ""; flex: none; width: 10px; height: 10px; margin-top: 9px; border-radius: 50%; background: var(--orange); }
-@media (max-width: 760px) { .panel { grid-template-columns: 1fr; padding: 24px; gap: 20px; } }
+/* buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 13px 22px; border-radius: 12px; font-weight: 700; text-decoration: none; border: 2px solid transparent; cursor: pointer; font-size: 1rem; font-family: inherit; }
+.btn-primary { background: var(--accent); color: var(--accent-ink); }
+.btn-primary:hover { filter: brightness(1.06); }
+.btn-ghost { border-color: rgba(255,255,255,.55); color: #fff; }
+.btn-ghost:hover { background: rgba(255,255,255,.12); }
+.btn-outline { border-color: var(--line); color: var(--ink); background: var(--surface); }
+.btn-outline:hover { border-color: var(--accent); }
+.btn svg { width: 20px; height: 20px; }
 
-/* comparison */
-.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); }
-table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: .97rem; }
-th, td { text-align: left; padding: 15px 18px; border-bottom: 1px solid var(--line); vertical-align: top; }
-thead th { font-family: var(--serif); font-size: 1.05rem; background: var(--sand); }
-th.us, td.us { background: var(--green-soft); }
-tbody th { font-weight: 650; }
-tr:last-child th, tr:last-child td { border-bottom: 0; }
-td { color: var(--muted); }
-td.us { color: var(--ink); font-weight: 600; }
-.small-note { color: var(--muted); font-size: .92rem; margin: 14px 2px 0; }
+/* hero */
+.hero { background: radial-gradient(1200px 500px at 85% -10%, rgba(45,212,191,.22), transparent 60%), linear-gradient(135deg, var(--hero-a), var(--hero-b)); color: var(--hero-ink); padding: 84px 0 72px; }
+.hero .grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; }
+.eyebrow { display: inline-block; font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #7ff0df; margin-bottom: 14px; }
+.hero h1 { font-size: clamp(2rem, 4.6vw, 3.4rem); line-height: 1.1; letter-spacing: -.03em; margin: 0 0 18px; }
+.hero p.lead { font-size: 1.15rem; color: #d3e4ee; max-width: 56ch; margin: 0 0 28px; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero small { display: block; margin-top: 16px; color: #a9c2d1; }
+@media (max-width: 900px) { .hero .grid { grid-template-columns: 1fr; } .hero { padding: 56px 0 48px; } }
 
-/* how */
-.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-.step { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 28px; }
-.step b { font-family: var(--serif); font-size: 2.6rem; color: var(--orange); line-height: 1; display: block; margin-bottom: 10px; }
-.step h3 { font-size: 1.3rem; margin-bottom: 8px; }
-.step p { margin: 0; color: var(--muted); }
-@media (max-width: 820px) { .steps { grid-template-columns: 1fr; } }
+/* flow card in hero */
+.flow { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: var(--radius); padding: 22px; }
+.flow h2 { margin: 0 0 14px; font-size: .95rem; font-weight: 650; color: #cfe3ee; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.steps li { display: flex; align-items: center; gap: 12px; background: rgba(255,255,255,.1); border-radius: 10px; padding: 10px 14px; font-weight: 600; }
+.steps li span { width: 26px; height: 26px; border-radius: 50%; background: #2dd4bf; color: #062a25; display: grid; place-items: center; font-size: .8rem; font-weight: 800; flex: none; }
+.steps li em { margin-left: auto; font-style: normal; font-weight: 500; color: #b5cfdd; font-size: .85rem; }
+
+/* sections */
+section { padding: 72px 0; }
+section.alt { background: var(--surface-2); }
+.section-head { max-width: 720px; margin: 0 0 40px; }
+.section-head h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); letter-spacing: -.02em; line-height: 1.2; margin: 0 0 12px; color: var(--brand); }
+.section-head p { color: var(--muted); margin: 0; font-size: 1.05rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+.card h3 { margin: 14px 0 8px; font-size: 1.1rem; color: var(--brand); }
+.card p { margin: 0; color: var(--muted); font-size: .97rem; }
+.icon { width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; }
+.icon svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+@media (max-width: 860px) { .split { grid-template-columns: 1fr; gap: 28px; } }
+.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.checks li { display: flex; gap: 12px; }
+.checks li::before { content: ""; flex: none; width: 22px; height: 22px; margin-top: 2px; border-radius: 50%; background: var(--accent-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230f9d8a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center/14px no-repeat; }
+.checks b { color: var(--brand); }
+.checks span { color: var(--muted); display: block; font-size: .96rem; }
+
+.process { counter-reset: s; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+.process .card { counter-increment: s; position: relative; padding-top: 52px; }
+.process .card::before { content: counter(s); position: absolute; top: 18px; left: 24px; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); display: grid; place-items: center; font-weight: 800; font-size: .9rem; }
+.process h3 { margin-top: 0; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+.tags span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; font-weight: 600; font-size: .92rem; }
 
 /* faq */
-details { border-bottom: 1px solid var(--line); padding: 4px 0; }
-summary { cursor: pointer; font: 700 1.1rem var(--serif); padding: 18px 28px 18px 0; list-style: none; position: relative; }
-summary::-webkit-details-marker { display: none; }
-summary::after { content: "+"; position: absolute; right: 4px; top: 14px; font-size: 1.6rem; color: var(--orange); font-family: var(--sans); }
-details[open] summary::after { content: "–"; }
-details p { margin: 0 0 18px; color: var(--muted); max-width: 46rem; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px; margin-bottom: 10px; }
+summary { cursor: pointer; font-weight: 650; padding: 14px 0; color: var(--brand); list-style-position: outside; }
+details[open] summary { border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+details p { margin: 0 0 14px; color: var(--muted); }
 
 /* contact */
-.talk { background: var(--green); color: var(--green-ink); border-radius: 28px; padding: 56px; display: grid; grid-template-columns: .95fr 1.05fr; gap: 44px; align-items: start; }
-.talk h2 { font-size: clamp(1.9rem, 3.6vw, 2.7rem); }
-.talk p { margin: 14px 0 24px; opacity: .92; font-size: 1.1rem; }
-.talk .btn-wa { background: var(--bg); color: var(--ink); }
-.talk .btn-wa:hover { filter: brightness(.96); }
-.talk .btn-outline { border-color: currentColor; color: inherit; }
-.talk .btn-outline:hover { background: rgba(255,255,255,.14); }
-.talk .stack { display: grid; gap: 12px; justify-items: start; }
-@media (max-width: 860px) { .talk { grid-template-columns: 1fr; padding: 30px 22px; border-radius: 22px; gap: 28px; } }
-form { background: var(--paper); color: var(--ink); border-radius: 20px; padding: 26px; display: grid; gap: 14px; }
-label { display: grid; gap: 6px; font-weight: 650; font-size: .92rem; }
-input, select, textarea { font: inherit; padding: 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); width: 100%; }
+.contact { background: linear-gradient(135deg, var(--hero-a), var(--hero-b)); color: #fff; }
+.contact .section-head h2, .contact .section-head p { color: #fff; }
+.contact .section-head p { color: #cfe3ee; }
+.contact-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 40px; align-items: start; }
+@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-list { display: grid; gap: 16px; }
+.contact-list a.btn { justify-content: flex-start; }
+.contact-list p { margin: 0; color: #b5cfdd; font-size: .95rem; }
+form { background: var(--surface); color: var(--ink); border-radius: var(--radius); padding: 26px; display: grid; gap: 14px; }
+label { font-weight: 650; font-size: .92rem; display: grid; gap: 6px; }
+input, textarea, select { font: inherit; padding: 11px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); width: 100%; }
 textarea { min-height: 110px; resize: vertical; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 @media (max-width: 560px) { .two { grid-template-columns: 1fr; } }
 .hp { position: absolute; left: -9999px; }
-form .btn { justify-content: center; }
-.note { margin: 0; font-size: .88rem; color: var(--muted); }
-#formMsg { margin: 0; font-weight: 700; }
-#formMsg.ok { color: var(--green); }
-#formMsg.err { color: #c0392b; }
-footer { padding: 36px 0 44px; color: var(--muted); font-size: .94rem; }
-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; }
+.note { font-size: .88rem; color: var(--muted); margin: 0; }
+#formMsg { margin: 0; font-weight: 650; }
+#formMsg.ok { color: var(--accent); }
+#formMsg.err { color: #d1495b; }
 
-/* screenshots from the app */
-.frame { margin: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); overflow: hidden; }
-.frame .zoom { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
-.frame img { display: block; width: 100%; height: auto; }
-.frame figcaption { font-size: .82rem; color: var(--muted); padding: 8px 14px; border-top: 1px solid var(--line); background: var(--sand); }
-.hero-frame { transform: rotate(1.2deg); }
-@media (max-width: 920px) { .hero-frame { transform: none; } }
-.moment .mini { margin-top: 18px; border-radius: 14px; }
-.moment .mini figcaption { padding: 8px 14px; font-size: .84rem; }
-@media (max-width: 860px) { .moment .dot { grid-row: span 4; } .moment .mini { grid-column: 2; } }
-.panel .wide { grid-column: 1 / -1; }
-.lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(10,16,15,.9); display: grid; place-items: center; align-content: center; gap: 12px; padding: 24px; cursor: zoom-out; }
-.lightbox[hidden] { display: none; }
-.lightbox img { max-width: min(1500px, 96vw); max-height: 82vh; width: auto; height: auto; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.5); background: #111; }
-.lightbox p { margin: 0; color: #e8efe9; font-size: .95rem; text-align: center; max-width: 60ch; }
-@media (max-width: 700px) {
-  /* on a phone the picture opens at a readable size: swipe to look around it */
-  .lightbox { overflow: auto; place-items: start; align-content: start; padding: 64px 12px 24px; cursor: default; -webkit-overflow-scrolling: touch; }
-  .lightbox img { max-width: none; max-height: none; width: 980px; }
-  .lightbox p { position: sticky; left: 12px; width: calc(100vw - 24px); max-width: none; text-align: left; }
-}
-.lb-close { position: fixed; top: 16px; right: 16px; width: 46px; height: 46px; border-radius: 50%; border: 2px solid #fff; background: transparent; color: #fff; font-size: 1.7rem; line-height: 1; cursor: pointer; display: grid; place-items: center; padding: 0; }
+footer { padding: 32px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="topbar">
-  <div class="wrap">
-    <header class="top">
-      <a class="brand" href="#top" aria-label="Innologic home"><i aria-hidden="true"></i>Innologic</a>
-      <div class="actions">
-        <a class="btn btn-green btn-small" href="#talk">Talk to us</a>
-        <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
-      </div>
-    </header>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Innologic home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0b2a3d"/><path d="M10 22l6-12 6 12" fill="none" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="22" r="2.4" fill="#2dd4bf"/><circle cx="16" cy="10" r="2.4" fill="#2dd4bf"/><circle cx="22" cy="22" r="2.4" fill="#2dd4bf"/></svg>
+      Innologic
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul id="menu">
+      <li><a href="#solution">Solution</a></li>
+      <li><a href="#who">Who it is for</a></li>
+      <li><a href="#how">How we work</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
-</div>
-<div class="scrim" id="scrim" hidden></div>
-<nav class="drawer" id="drawer" aria-label="Site menu" aria-hidden="true">
-  <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu">&times;</button>
-  <div class="drawer-head"><span class="brand"><i aria-hidden="true"></i>Innologic</span></div>
-  <ul>
-    <li><a href="#day">One ordinary day</a></li>
-    <li><a href="#tour">What is inside</a></li>
-    <li><a href="#compare">Where we fit</a></li>
-    <li><a href="#how">How we work</a></li>
-    <li><a href="#faq">Questions</a></li>
-  </ul>
-  <a class="btn btn-green" data-wa href="#talk">Message us on WhatsApp</a>
-  <a class="btn btn-line" href="#talk">Contact form</a>
-</nav>
+</header>
 
 <main id="main">
 <div id="top"></div>
-<section class="hero">
+<section class="hero" style="padding-bottom:72px">
   <div class="wrap grid">
     <div>
-      <span class="kicker">Business software, set up for you</span>
-      <h1>Your whole business, <em>in one calm system.</em></h1>
-      <p>Innologic is ERP software for trading, retail and distribution companies. Orders, stock, purchasing, money and tax stay connected, so you stop retyping and start trusting your numbers.</p>
+      <span class="eyebrow">ERP software and support</span>
+      <h1>Sales, stock, purchasing and accounting in one system.</h1>
+      <p class="lead">Innologic builds and supports business software for trading, retail and distribution companies. It is simple to learn, runs on your own computer or server, and we set it up for you.</p>
       <div class="cta">
-        <a class="btn btn-green" data-wa href="#talk">
+        <a class="btn btn-primary" data-wa href="#contact">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.2 1.4 2.5 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.8-.1 1.3z"/></svg>
-          Message us on WhatsApp</a>
-        <a class="btn btn-line" href="#tour">See what it does</a>
+          Chat on WhatsApp</a>
+        <a class="btn btn-ghost" href="#contact">Request a demo</a>
       </div>
-      <p class="fine">The first conversation is free, and we will tell you honestly if it is not the right fit.</p>
+      <small>Free first conversation. We tell you honestly if it is not the right fit.</small>
     </div>
+    <div class="flow" aria-label="Example of how a sale flows through the system">
+      <h2>One sale, followed through the system</h2>
+      <ol class="steps">
+        <li><span>1</span>Sales order <em>customer asks</em></li>
+        <li><span>2</span>Delivery <em>stock goes out</em></li>
+        <li><span>3</span>Invoice and VAT <em>revenue booked</em></li>
+        <li><span>4</span>Payment <em>bank updated</em></li>
+        <li><span>5</span>Reports and tax <em>always up to date</em></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="solution">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Everything a trading business runs on, in one place</h2>
+      <p>Each step feeds the next, so you stop copying numbers between spreadsheets and your books update as work is done.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h9.6a1 1 0 0 0 1-.8L21 7H6"/></svg></div>
+        <h3>Sales and customers</h3><p>Quotations, orders, deliveries, invoices, incoming payments, credit memos and customer statements.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M1 4h13v12H1zM14 8h4l4 4v4h-8"/><circle cx="5.5" cy="18.5" r="1.8"/><circle cx="17.5" cy="18.5" r="1.8"/></svg></div>
+        <h3>Purchasing and vendors</h3><p>From purchase request to goods receipt, vendor invoice and payment, with approval limits per person.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
+        <h3>Stock and warehouses</h3><p>Stock by warehouse, transfers between warehouses, stock counts, revaluation and landed costs.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+        <h3>Point of sale</h3><p>Counter sales with sessions, refunds, several payment methods and warranty lookup.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h8M9 17h8"/></svg></div>
+        <h3>Accounting that writes itself</h3><p>Automatic journals, trial balance, balance sheet, income statement, cash flow and year-end closing.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6M5 10v9M19 10v9M9 10v9M15 10v9M3 21h18"/></svg></div>
+        <h3>Banks and budgets</h3><p>Bank accounts, cash and bank vouchers, bank reconciliation, and budgets by branch or department.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13"/><path d="M7 21v-8h10v8M7 17h10"/></svg></div>
+        <h3>More than one company</h3><p>Separate books for each company, billing between your own companies, and consolidated statements for the group.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M20.6 13.4L13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div>
+        <h3>Indonesian tax tools</h3><p>VAT report, PPh 23 and 4(2) withholding records, final PPh, and a Coretax e-Faktur XML export.</p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg></div>
+        <h3>Control and security</h3><p>User roles, approvals, an activity log, two-factor login and files attached to documents.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="who">
+  <div class="wrap split">
     <div>
-      <figure class="frame hero-frame"><button type="button" class="zoom" data-zoom="images/dashboard.jpg" aria-label="Enlarge screenshot: The Innologic dashboard showing monthly sales, growth and a sales chart for a demo company"><img src="images/dashboard.jpg" width="1800" height="1125" alt="The Innologic dashboard showing monthly sales, growth and a sales chart for a demo company" fetchpriority="high"></button><figcaption>The dashboard of a demo company. All screens on this page show sample data.</figcaption></figure>
+      <div class="section-head" style="margin-bottom:20px">
+        <h2>Built for companies that have outgrown spreadsheets</h2>
+        <p>If basic accounting software no longer covers your stock and orders, and the big ERP systems feel too heavy or too expensive, Innologic is made for the gap in between.</p>
+      </div>
+      <div class="tags" aria-label="Types of business">
+        <span>Trading and distribution</span><span>Retail with counters</span><span>Several branches</span><span>Groups of companies</span><span>Wholesale</span>
+      </div>
     </div>
-  </div>
-</section>
-
-<section class="band" id="day">
-  <div class="wrap">
-    <div class="head"><h2>One ordinary day, one connected system</h2><p>Every step hands its result to the next, so nobody asks "which spreadsheet is right?"</p></div>
-    <div class="day">
-      <div class="moment"><div class="dot">1</div><h3>Orders come in</h3><p>Quotations become sales orders. Large orders can wait for an approval.</p><small>Sales</small><figure class="frame mini"><button type="button" class="zoom" data-zoom="images/sales-order.jpg" aria-label="Enlarge screenshot: A sales order with its customer, approval status, lines, deliveries and invoices"><img src="images/sales-order.jpg" width="1510" height="900" alt="A sales order with its customer, approval status, lines, deliveries and invoices" loading="lazy" decoding="async"></button><figcaption>Sales order</figcaption></figure></div>
-      <div class="moment"><div class="dot">2</div><h3>The warehouse ships</h3><p>Deliveries take stock out of the right warehouse. Goods paid for in advance are held until the money is in.</p><small>Stock</small><figure class="frame mini"><button type="button" class="zoom" data-zoom="images/waiting-for-payment.jpg" aria-label="Enlarge screenshot: The Waiting for payment screen listing goods held back until an invoice is paid in full"><img src="images/waiting-for-payment.jpg" width="1510" height="900" alt="The Waiting for payment screen listing goods held back until an invoice is paid in full" loading="lazy" decoding="async"></button><figcaption>Goods held until paid</figcaption></figure></div>
-      <div class="moment"><div class="dot">3</div><h3>The counter sells</h3><p>Cashiers tap or scan products, take cash, QRIS, card or transfer, and print the receipt. Every sale updates stock and the books.</p><small>Point of sale</small><figure class="frame mini"><button type="button" class="zoom" data-zoom="images/point-of-sale.jpg" aria-label="Enlarge screenshot: The point of sale screen with products to tap, a cart with five items and the total ready for payment"><img src="images/point-of-sale.jpg" width="1800" height="988" alt="The point of sale screen with products to tap, a cart with five items and the total ready for payment" loading="lazy" decoding="async"></button><figcaption>Point of sale</figcaption></figure></div>
-      <div class="moment"><div class="dot">4</div><h3>Invoices and payments</h3><p>Invoices, VAT, receipts and bank matching update the books as you work.</p><small>Money</small><figure class="frame mini"><button type="button" class="zoom" data-zoom="images/invoice.jpg" aria-label="Enlarge screenshot: An A/R invoice showing totals, VAT, payment received and an attachments panel"><img src="images/invoice.jpg" width="1510" height="900" alt="An A/R invoice showing totals, VAT, payment received and an attachments panel" loading="lazy" decoding="async"></button><figcaption>Invoice with payment</figcaption></figure></div>
-      <div class="moment"><div class="dot">5</div><h3>Stock stays in check</h3><p>See what sells fast, what sits on the shelf, and where your money is stuck.</p><small>Inventory</small><figure class="frame mini"><button type="button" class="zoom" data-zoom="images/inventory-dashboard.jpg" aria-label="Enlarge screenshot: The inventory dashboard showing fast, normal, slow and dead moving products and units shipped per month"><img src="images/inventory-dashboard.jpg" width="1510" height="900" alt="The inventory dashboard showing fast, normal, slow and dead moving products and units shipped per month" loading="lazy" decoding="async"></button><figcaption>Inventory dashboard</figcaption></figure></div>
-      <div class="moment"><div class="dot">6</div><h3>Month end is calmer</h3><p>Balance sheet, income statement, cash flow and tax records are already there.</p><small>Reports and tax</small><figure class="frame mini"><button type="button" class="zoom" data-zoom="images/income-statement.jpg" aria-label="Enlarge screenshot: An income statement with revenue, cost of goods sold and operating expenses"><img src="images/income-statement.jpg" width="1510" height="900" alt="An income statement with revenue, cost of goods sold and operating expenses" loading="lazy" decoding="async"></button><figcaption>Income statement</figcaption></figure></div>
-    </div>
-  </div>
-</section>
-
-<section id="tour">
-  <div class="wrap">
-    <div class="head"><h2>What is inside</h2><p>Pick an area to see what it covers.</p></div>
-    <div class="tabs" role="tablist" aria-label="Areas of the system">
-      <button class="tab" role="tab" id="t1" aria-selected="true" aria-controls="p1">Selling</button>
-      <button class="tab" role="tab" id="t2" aria-selected="false" aria-controls="p2" tabindex="-1">Buying and stock</button>
-      <button class="tab" role="tab" id="t3" aria-selected="false" aria-controls="p3" tabindex="-1">Money</button>
-      <button class="tab" role="tab" id="t4" aria-selected="false" aria-controls="p4" tabindex="-1">Tax</button>
-      <button class="tab" role="tab" id="t5" aria-selected="false" aria-controls="p5" tabindex="-1">Groups and control</button>
-    </div>
-    <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
-      <div><h3>From first quote to final payment</h3><p>Whether you sell by the box or at a counter, the same customer records and prices feed every document.</p></div>
-      <ul><li>Quotations, sales orders, deliveries and invoices</li><li>Incoming payments, down payments and credit memos</li><li>Customer statements and overdue reminders</li><li>Point of sale with sessions, refunds and several payment methods</li><li>Warranty lookup by serial number</li></ul>
-      <figure class="frame wide"><button type="button" class="zoom" data-zoom="images/sales-orders.jpg" aria-label="Enlarge screenshot: The sales orders list with customer, date, delivery status and totals"><img src="images/sales-orders.jpg" width="1510" height="900" alt="The sales orders list with customer, date, delivery status and totals" loading="lazy" decoding="async"></button><figcaption>Sales orders</figcaption></figure>
-    </div>
-    <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
-      <div><h3>Know what you have and where</h3><p>Stock is tracked by warehouse, and purchases flow from request to payment with the right approvals.</p></div>
-      <ul><li>Purchase requests, orders, goods receipts and vendor invoices</li><li>Approval limits per person</li><li>Transfers between warehouses and stock counts</li><li>Landed costs and stock revaluation</li><li>Returns to vendors and from customers</li></ul>
-      <figure class="frame wide"><button type="button" class="zoom" data-zoom="images/purchase-order.jpg" aria-label="Enlarge screenshot: A purchase order with vendor, receipt status, lines, goods receipts and vendor documents"><img src="images/purchase-order.jpg" width="1510" height="900" alt="A purchase order with vendor, receipt status, lines, goods receipts and vendor documents" loading="lazy" decoding="async"></button><figcaption>Purchase order, from request to receipt</figcaption></figure>
-    </div>
-    <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
-      <div><h3>Books that write themselves</h3><p>Every document posts its own journal, so the reports are always current.</p></div>
-      <ul><li>Trial balance, balance sheet, income statement and cash flow</li><li>Bank accounts, vouchers and bank reconciliation</li><li>Budgets by branch or department</li><li>Fixed assets with automatic depreciation</li><li>Year-end closing</li></ul>
-      <figure class="frame wide"><button type="button" class="zoom" data-zoom="images/cash-flow.jpg" aria-label="Enlarge screenshot: A cash flow statement with operating, investing and financing activities that agrees with cash and bank"><img src="images/cash-flow.jpg" width="1510" height="900" alt="A cash flow statement with operating, investing and financing activities that agrees with cash and bank" loading="lazy" decoding="async"></button><figcaption>Cash flow statement</figcaption></figure>
-    </div>
-    <div class="panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden>
-      <div><h3>Ready for Indonesian practice</h3><p>The records and exports your tax advisor asks for. Please always confirm rates and filing details with them.</p></div>
-      <ul><li>VAT report</li><li>PPh 23 and 4(2) withholding, on vendor and customer payments</li><li>Final PPh for small businesses</li><li>Coretax e-Faktur XML export</li></ul>
-      <figure class="frame wide"><button type="button" class="zoom" data-zoom="images/efaktur.jpg" aria-label="Enlarge screenshot: The Coretax e-Faktur screen listing invoices that are ready to export as XML"><img src="images/efaktur.jpg" width="1510" height="900" alt="The Coretax e-Faktur screen listing invoices that are ready to export as XML" loading="lazy" decoding="async"></button><figcaption>e-Faktur export for Coretax</figcaption></figure>
-    </div>
-    <div class="panel" role="tabpanel" id="p5" aria-labelledby="t5" hidden>
-      <div><h3>Several companies, one careful owner</h3><p>Keep each company separate and still see the whole group.</p></div>
-      <ul><li>A separate set of books per company</li><li>Billing between your own companies</li><li>Consolidated statements for the group</li><li>User roles, an activity log and two-factor login</li><li>Files attached to documents</li></ul>
-      <figure class="frame wide"><button type="button" class="zoom" data-zoom="images/role-access.jpg" aria-label="Enlarge screenshot: The Role Access screen where the administrator chooses what each type of user can see or edit"><img src="images/role-access.jpg" width="1510" height="900" alt="The Role Access screen where the administrator chooses what each type of user can see or edit" loading="lazy" decoding="async"></button><figcaption>Role access per type of user</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<section class="band" id="compare">
-  <div class="wrap">
-    <div class="head"><h2>Where Innologic fits</h2><p>An honest, general picture. Every business and product is different.</p></div>
-    <div class="table-wrap">
-      <table>
-        <thead><tr><th></th><th>Spreadsheets</th><th>Basic accounting apps</th><th>Large ERP systems</th><th class="us">Innologic</th></tr></thead>
-        <tbody>
-          <tr><th>Orders, stock and books connected</th><td>By hand</td><td>Often limited</td><td>Yes</td><td class="us">Yes</td></tr>
-          <tr><th>Stock by warehouse</th><td>By hand</td><td>Varies</td><td>Yes</td><td class="us">Yes</td></tr>
-          <tr><th>Several companies in one group</th><td>Hard</td><td>Varies</td><td>Yes</td><td class="us">Yes</td></tr>
-          <tr><th>Time to get started</th><td>Immediate</td><td>Days</td><td>Months</td><td class="us">Weeks, with our help</td></tr>
-          <tr><th>Runs on your own server</th><td>Yes</td><td>Often cloud only</td><td>Often</td><td class="us">Yes</td></tr>
-          <tr><th>Direct line to the people who build it</th><td>n/a</td><td>Support desk</td><td>Through partners</td><td class="us">Yes</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="small-note">We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.</p>
+    <ul class="checks">
+      <li><div><b>Your data stays with you</b><span>It runs on your own computer or office server. No monthly cloud fee is needed to keep working.</span></div></li>
+      <li><div><b>A familiar flow</b><span>Quotation, order, delivery, invoice, payment. If your team has used SAP Business One, the document flow will feel familiar.</span></div></li>
+      <li><div><b>Made for Indonesian practice</b><span>Rupiah, VAT, PPh withholding, bank vouchers and Coretax export are part of the system, not add-ons.</span></div></li>
+      <li><div><b>You talk to the person who builds it</b><span>Questions and change requests go straight to us, not through a call centre.</span></div></li>
+    </ul>
   </div>
 </section>
 
 <section id="how">
   <div class="wrap">
-    <div class="head"><h2>How we work with you</h2><p>You are never left alone with a manual.</p></div>
-    <div class="steps">
-      <div class="step"><b>1</b><h3>We listen</h3><p>A short chat about how you sell, buy and keep stock. We show you the system and tell you honestly what fits.</p></div>
-      <div class="step"><b>2</b><h3>We set it up</h3><p>Installation, chart of accounts, tax settings, users and roles, and import of your products, customers and vendors.</p></div>
-      <div class="step"><b>3</b><h3>We stay with you</h3><p>Hands-on training for your team, then support, updates and changes as your business grows.</p></div>
+    <div class="section-head">
+      <h2>How we work with you</h2>
+      <p>We stay with you until your team is comfortable, then keep supporting you.</p>
     </div>
-    <p class="small-note">Setup, training, custom changes and yearly support are quoted per company. <a href="#talk">Ask for a quote.</a></p>
+    <div class="process">
+      <div class="card"><h3>We listen first</h3><p>A short conversation about how you sell, buy and keep stock today, and what hurts. We show you the system and tell you honestly what fits and what does not.</p></div>
+      <div class="card"><h3>We set it up</h3><p>Installation, your chart of accounts, tax settings, users and roles, and import of your products, customers and vendors.</p></div>
+      <div class="card"><h3>We train and support</h3><p>Hands-on training for your staff, then ongoing support, updates and changes when your business changes.</p></div>
+    </div>
+    <p class="note" style="margin-top:22px">Setup, training, custom reports and yearly support are quoted per company. <a href="#contact">Ask for a quote.</a></p>
   </div>
 </section>
 
-<section class="band" id="faq">
+<section class="alt" id="faq">
   <div class="wrap" style="max-width:820px">
-    <div class="head"><h2>Questions we often hear</h2></div>
-    <details><summary>Do we need cloud hosting or constant internet?</summary><p>No. Innologic runs on a computer or small server in your office, and your staff use it in their browser over your network. Secure remote access can be arranged if you need it.</p></details>
-    <details><summary>Can it handle several branches or companies?</summary><p>Yes. Branches and departments can be tracked separately, and each company keeps its own books, with billing between companies and group statements.</p></details>
-    <details><summary>Can we bring our existing products and customers?</summary><p>Yes. We help import products, customers, vendors and opening balances so you do not start from zero.</p></details>
-    <details><summary>Is our data safe?</summary><p>Users only see what their role allows, changes are recorded in an activity log, and two-factor login is available. We set up regular backups and recommend a copy on a second drive or in cloud storage.</p></details>
-    <details><summary>Is the tax output ready to file?</summary><p>It records and exports the data you need for VAT, PPh and Coretax e-Faktur. Please confirm rates and filing details with your tax advisor.</p></details>
-    <details><summary>How much does it cost?</summary><p>It depends on the size of your business and how much setup and training you need. Send us a message for a clear quote.</p></details>
+    <div class="section-head"><h2>Questions we often hear</h2></div>
+    <details><summary>Do we need cloud hosting or a constant internet connection?</summary><p>No. Innologic runs on a computer or small server in your office and staff use it through their browser over your network. Secure remote access can be arranged if you need to work from outside.</p></details>
+    <details><summary>Can it handle several branches or companies?</summary><p>Yes. Branches and departments can be tracked separately, and each company keeps its own books. Bills between your companies and group statements are supported.</p></details>
+    <details><summary>Can we bring our existing products and customers?</summary><p>Yes. We help you import products, customers, vendors and opening balances so you do not start from zero.</p></details>
+    <details><summary>Is our data safe?</summary><p>Users have roles and only see what they need, every change is recorded in an activity log, and two-factor login is available. We set up regular backups and recommend keeping copies on a second drive or cloud storage.</p></details>
+    <details><summary>Is the tax output ready to file?</summary><p>It records and exports the data you need for VAT, PPh and Coretax e-Faktur. Please always confirm rates and filing details with your tax advisor.</p></details>
+    <details><summary>How much does it cost?</summary><p>It depends on the size of your business and how much setup and training you need. Send us a message and we will give you a clear quote.</p></details>
   </div>
 </section>
 
-<section id="talk">
-  <div class="wrap">
-    <div class="talk">
-      <div>
-        <h2>Tell us how your business runs today</h2>
-        <p>We reply personally, usually within one working day.</p>
-        <div class="stack">
-          <a class="btn btn-wa" data-wa href="#talk">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.2 1.4 2.5 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.8-.1 1.3z"/></svg>
-            Chat on WhatsApp</a>
-          <a class="btn btn-outline" data-mail href="#talk">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
-            <span data-mail-text>Email us</span></a>
-        </div>
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="section-head" style="margin-bottom:24px"><h2>Let us talk about your business</h2><p>Tell us what you sell and how you work today. We reply personally, usually within one working day.</p></div>
+      <div class="contact-list">
+        <a class="btn btn-primary" data-wa href="#contact">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.2 1.4 2.5 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.8-.1 1.3z"/></svg>
+          Chat on WhatsApp</a>
+        <a class="btn btn-ghost" data-mail href="#contact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span data-mail-text>Email us</span></a>
+        <p>Prefer to write it down? Use the form and we will get back to you.</p>
       </div>
-      <form id="contactForm" novalidate>
-        <div class="two">
-          <label>Your name<input name="name" autocomplete="name" required></label>
-          <label>Company<input name="company" autocomplete="organization"></label>
-        </div>
-        <div class="two">
-          <label>Email<input name="email" type="email" autocomplete="email" required></label>
-          <label>WhatsApp (optional)<input name="phone" type="tel" autocomplete="tel" placeholder="+62 ..."></label>
-        </div>
-        <label>What does your business do?
-          <select name="type"><option value="">Choose one</option><option>Trading / distribution</option><option>Retail / shop</option><option>Several branches</option><option>Group of companies</option><option>Other</option></select></label>
-        <label>How can we help?<textarea name="message" required placeholder="For example: we sell office supplies from two warehouses and need stock, invoices and VAT in one place."></textarea></label>
-        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <button class="btn btn-green" type="submit">Send message</button>
-        <p id="formMsg" role="status" aria-live="polite"></p>
-        <p class="note">We use your details only to reply to you.</p>
-      </form>
     </div>
+    <form id="contactForm" novalidate>
+      <div class="two">
+        <label>Your name<input name="name" autocomplete="name" required></label>
+        <label>Company<input name="company" autocomplete="organization"></label>
+      </div>
+      <div class="two">
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>WhatsApp number (optional)<input name="phone" type="tel" autocomplete="tel" placeholder="+62 ..."></label>
+      </div>
+      <label>What does your business do?
+        <select name="type">
+          <option value="">Choose one</option><option>Trading / distribution</option><option>Retail / shop</option><option>Several branches</option><option>Group of companies</option><option>Other</option>
+        </select></label>
+      <label>How can we help?<textarea name="message" required placeholder="For example: we sell office supplies from two warehouses and need stock, invoices and VAT in one place."></textarea></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-primary" type="submit">Send message</button>
+      <p id="formMsg" role="status" aria-live="polite"></p>
+      <p class="note">We use your details only to reply to you.</p>
+    </form>
   </div>
 </section>
 </main>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot" hidden><button class="lb-close" id="lbClose" type="button" aria-label="Close">&times;</button><img id="lbImg" alt=""><p id="lbCap"></p></div>
-
-<footer><div class="wrap"><span>&copy; <span id="year">2026</span> Innologic. All rights reserved.</span><span>ERP software, setup, training and support.</span></div></footer>
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="year">2026</span> Innologic. All rights reserved.</span>
+    <span>ERP software, setup, training and support.</span>
+  </div>
+</footer>
 
 <script>
 // ---------------------------------------------------------------------------
@@ -417,60 +319,21 @@ var CONTACT = { whatsapp: '62XXXXXXXXXX', email: 'hello@example.com', formUrl: '
 
 (function () {
   var waText = encodeURIComponent('Hello Innologic, I would like to know more about your ERP software.');
-  document.querySelectorAll('[data-wa]').forEach(function (a) { a.href = 'https://wa.me/' + CONTACT.whatsapp + '?text=' + waText; a.target = '_blank'; a.rel = 'noopener'; });
+  document.querySelectorAll('[data-wa]').forEach(function (a) {
+    a.href = 'https://wa.me/' + CONTACT.whatsapp + '?text=' + waText;
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
   document.querySelectorAll('[data-mail]').forEach(function (a) { a.href = 'mailto:' + CONTACT.email; });
   document.querySelectorAll('[data-mail-text]').forEach(function (s) { s.textContent = CONTACT.email; });
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  // burger menu on the right: opens a panel from the right edge
-  var burger = document.getElementById('burger'), drawer = document.getElementById('drawer'), scrim = document.getElementById('scrim'), topbar = document.querySelector('.topbar');
-  function setMenu(open) {
-    drawer.classList.toggle('open', open);
-    drawer.setAttribute('aria-hidden', open ? 'false' : 'true');
-    scrim.hidden = !open;
-    document.body.classList.toggle('menu-open', open);
-    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
-    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-    if (open) document.getElementById('drawerClose').focus(); else burger.focus({ preventScroll: true });
-  }
-  burger.addEventListener('click', function () { setMenu(!drawer.classList.contains('open')); });
-  document.getElementById('drawerClose').addEventListener('click', function () { setMenu(false); });
-  scrim.addEventListener('click', function () { setMenu(false); });
-  drawer.addEventListener('click', function (e) { if (e.target.closest('a')) { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); scrim.hidden = true; document.body.classList.remove('menu-open'); burger.setAttribute('aria-expanded', 'false'); burger.setAttribute('aria-label', 'Open menu'); } });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && drawer.classList.contains('open')) setMenu(false); });
-  window.addEventListener('scroll', function () { topbar.classList.toggle('scrolled', window.scrollY > 8); }, { passive: true });
-
-
-  // click a screenshot to see it large
-  var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap'), lbFrom = null;
-  function lbOpen(btn) {
-    var img = btn.querySelector('img'), cap = btn.parentNode.querySelector('figcaption');
-    lbFrom = btn; lbImg.src = btn.getAttribute('data-zoom'); lbImg.alt = img.alt; lbCap.textContent = (cap ? cap.textContent + '. ' : '') + img.alt + '.';
-    lb.hidden = false; document.body.classList.add('menu-open'); document.getElementById('lbClose').focus();
-  }
-  function lbShut() { lb.hidden = true; lbImg.removeAttribute('src'); document.body.classList.remove('menu-open'); if (lbFrom) lbFrom.focus({ preventScroll: true }); }
-  document.addEventListener('click', function (e) { var z = e.target.closest('.zoom'); if (z) lbOpen(z); });
-  lb.addEventListener('click', lbShut);
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !lb.hidden) lbShut(); });
-
-  // tabs (arrow keys move between them)
-  var tabs = [].slice.call(document.querySelectorAll('.tab'));
-  function pick(t, focus) {
-    tabs.forEach(function (x) {
-      var on = x === t;
-      x.setAttribute('aria-selected', on ? 'true' : 'false');
-      x.tabIndex = on ? 0 : -1;
-      document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
-    });
-    if (focus) t.focus();
-  }
-  tabs.forEach(function (t, i) {
-    t.addEventListener('click', function () { pick(t); });
-    t.addEventListener('keydown', function (e) {
-      if (e.key === 'ArrowRight') { e.preventDefault(); pick(tabs[(i + 1) % tabs.length], true); }
-      if (e.key === 'ArrowLeft') { e.preventDefault(); pick(tabs[(i + tabs.length - 1) % tabs.length], true); }
-    });
+  var btn = document.querySelector('.menu-btn'), menu = document.getElementById('menu');
+  btn.addEventListener('click', function () {
+    var open = menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
+  menu.addEventListener('click', function (e) { if (e.target.tagName === 'A') { menu.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
 
   var form = document.getElementById('contactForm'), msg = document.getElementById('formMsg');
   function say(text, cls) { msg.textContent = text; msg.className = cls || ''; }
