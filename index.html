@@ -573,7 +573,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 //   formUrl  : optional. Only if you use another form service (Formspree, Getform...) instead of formKey.
 //              With neither formKey nor formUrl the form sends its message through WhatsApp.
 // ---------------------------------------------------------------------------
-var CONTACT = { whatsapp: '6282231783609', email: '', formKey: '', formUrl: '' };
+// formUrl below sends every message from the contact form to robz1107.saputra@gmail.com through the free FormSubmit service.
+// The first message ever sent makes FormSubmit email that address once with a link to "Activate Form": click it, and every later message arrives as a normal email.
+var CONTACT = { whatsapp: '6282231783609', email: '', formKey: '', formUrl: 'https://formsubmit.co/ajax/robz1107.saputra@gmail.com' };
 
 (function () {
   var waText = encodeURIComponent('Hello Innologic, I would like to know more about your ERP software.');
@@ -655,8 +657,9 @@ var CONTACT = { whatsapp: '6282231783609', email: '', formKey: '', formUrl: '' }
     say('Sending...');
     var payload = { name: name, company: f.get('company'), email: email, phone: f.get('phone'), type: f.get('type'), message: text };
     if (CONTACT.formKey) { payload.access_key = CONTACT.formKey; payload.subject = 'New enquiry from the Innologic website: ' + name; payload.from_name = 'Innologic website'; }
+    else { payload._subject = 'New enquiry from the Innologic website: ' + name; payload._template = 'table'; payload._captcha = 'false'; } // options understood by FormSubmit; other form services ignore them
     fetch(endpoint, { method: 'POST', headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
-      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { if (!r.ok || d.success === false) throw new Error(); form.reset(); say('Thank you. We will reply to you soon.', 'ok'); }); })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { if (!r.ok || d.success === false || d.success === 'false') throw new Error(); form.reset(); say('Thank you. We will reply to you soon.', 'ok'); }); })
       .catch(function () { say('Sorry, the message could not be sent. Please use WhatsApp instead.', 'err'); });
   });
 })();
