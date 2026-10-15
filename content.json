@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "Innologic | Business software that follows your whole day",
+    "description": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax in one calm system, set up and supported by the people who build it."
+  },
+  "topbar": {
+    "cta": "Talk to us"
+  },
+  "menu": {
+    "whatsapp": "Message us on WhatsApp",
+    "form": "Contact form",
+    "links": [
+      "One ordinary day",
+      "What is inside",
+      "Restaurant POS",
+      "Where we fit",
+      "How we work",
+      "Questions"
+    ]
+  },
+  "hero": {
+    "kicker": "Business software, set up for you",
+    "text": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax stay connected, so you stop retyping and start trusting your numbers.",
+    "whatsapp": "Message us on WhatsApp",
+    "seeMore": "See what it does",
+    "fine": "The first conversation is free, and we will tell you honestly if it is not the right fit.",
+    "caption": "The dashboard of a demo company. All screens on this page show sample data.",
+    "headline": "Your whole business,",
+    "headlineEm": "in one calm system."
+  },
+  "day": {
+    "heading": "One ordinary day, one connected system",
+    "sub": "Every step hands its result to the next, so nobody asks \"which spreadsheet is right?\"",
+    "moments": [
+      {
+        "title": "Orders come in",
+        "text": "Quotations become sales orders. Large orders can wait for an approval.",
+        "tag": "Sales",
+        "caption": "Sales order"
+      },
+      {
+        "title": "The warehouse ships",
+        "text": "Deliveries take stock out of the right warehouse. Goods paid for in advance are held until the money is in.",
+        "tag": "Stock",
+        "caption": "Goods held until paid"
+      },
+      {
+        "title": "The counter sells",
+        "text": "Cashiers tap or scan products, take cash, QRIS, card or transfer, and print the receipt. Every sale updates stock and the books.",
+        "tag": "Point of sale",
+        "caption": "Point of sale"
+      },
+      {
+        "title": "Invoices and payments",
+        "text": "Invoices, VAT, receipts and bank matching update the books as you work.",
+        "tag": "Money",
+        "caption": "Invoice with payment"
+      },
+      {
+        "title": "Stock stays in check",
+        "text": "See what sells fast, what sits on the shelf, and where your money is stuck.",
+        "tag": "Inventory",
+        "caption": "Inventory dashboard"
+      },
+      {
+        "title": "Month end is calmer",
+        "text": "Balance sheet, income statement, cash flow and tax records are already there.",
+        "tag": "Reports and tax",
+        "caption": "Income statement"
+      }
+    ]
+  },
+  "tour": {
+    "heading": "What is inside",
+    "sub": "Pick an area to see what it covers.",
+    "areas": [
+      {
+        "tab": "Selling",
+        "title": "From first quote to final payment",
+        "text": "Whether you sell by the box or at a counter, the same customer records and prices feed every document.",
+        "bullets": [
+          "Quotations, sales orders, deliveries and invoices",
+          "Incoming payments, down payments and credit memos",
+          "Customer statements and overdue reminders",
+          "Point of sale with sessions, refunds and several payment methods",
+          "Warranty lookup by serial number"
+        ],
+        "caption": "Sales orders"
+      },
+      {
+        "tab": "Buying and stock",
+        "title": "Know what you have and where",
+        "text": "Stock is tracked by warehouse, and purchases flow from request to payment with the right approvals.",
+        "bullets": [
+          "Purchase requests, orders, goods receipts and vendor invoices",
+          "Approval limits per person",
+          "Transfers between warehouses and stock counts",
+          "Landed costs and stock revaluation",
+          "Returns to vendors and from customers"
+        ],
+        "caption": "Purchase order, from request to receipt"
+      },
+      {
+        "tab": "Money",
+        "title": "Books that write themselves",
+        "text": "Every document posts its own journal, so the reports are always current.",
+        "bullets": [
+          "Trial balance, balance sheet, income statement and cash flow",
+          "Bank accounts, vouchers and bank reconciliation",
+          "Budgets by branch or department",
+          "Fixed assets with automatic depreciation",
+          "Year-end closing"
+        ],
+        "caption": "Cash flow statement"
+      },
+      {
+        "tab": "Tax",
+        "title": "Ready for Indonesian practice",
+        "text": "The records and exports your tax advisor asks for. Please always confirm rates and filing details with them.",
+        "bullets": [
+          "VAT report",
+          "PPh 23 and 4(2) withholding, on vendor and customer payments",
+          "Final PPh for small businesses",
+          "Coretax e-Faktur XML export"
+        ],
+        "caption": "e-Faktur export for Coretax"
+      },
+      {
+        "tab": "Groups and control",
+        "title": "Several companies, one careful owner",
+        "text": "Keep each company separate and still see the whole group.",
+        "bullets": [
+          "A separate set of books per company",
+          "Billing between your own companies",
+          "Consolidated statements for the group",
+          "User roles, an activity log and two-factor login",
+          "Files attached to documents"
+        ],
+        "caption": "Role access per type of user"
+      }
+    ]
+  },
+  "fnb": {
+    "kicker": "For restaurants and cafés",
+    "heading": "A point of sale built for restaurants and cafés",
+    "text": "Tables, kitchen, bill and stock work as one. The waiter takes the order, the kitchen gets its ticket, the guest pays, and your ingredients and books update by themselves.",
+    "demo": "Ask for a restaurant demo",
+    "features": "See the features",
+    "mockNote": "An illustration with sample dishes and numbers.",
+    "flowHeading": "From the table to the books",
+    "flowSub": "One order, five steps, nothing typed twice.",
+    "featuresHeading": "What the restaurant POS covers",
+    "featuresSub": "Everything the floor needs, with the back office behind it.",
+    "note": "Not included today: self-order kiosks and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood). If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor.",
+    "flow": [
+      {
+        "title": "Open the table",
+        "text": "Pick it on the floor plan and add dishes with notes, on a PC or a tablet."
+      },
+      {
+        "title": "Send to the kitchen",
+        "text": "The kitchen and the bar each get their own ticket or screen."
+      },
+      {
+        "title": "Serve and bill",
+        "text": "Move or merge tables, split the bill and apply a promotion."
+      },
+      {
+        "title": "Take payment",
+        "text": "Cash, QRIS, card or transfer, even several on one bill."
+      },
+      {
+        "title": "Stock and books follow",
+        "text": "Ingredients leave stock by recipe and the sale lands in the day's report and the books."
+      }
+    ],
+    "cards": [
+      {
+        "title": "Tables and floor plan",
+        "text": "Draw your floors and tables. Open bills show on the plan. Move a party to another table, merge two bills or split one."
+      },
+      {
+        "title": "Kitchen and bar",
+        "text": "A kitchen screen shows what to cook, and tickets print per station. Mark dishes ready and served as they go out."
+      },
+      {
+        "title": "Menu with recipes",
+        "text": "Groups, categories and dishes with photos. Each dish has a recipe, so every sale takes the ingredients out of stock and shows the food cost."
+      },
+      {
+        "title": "Payments and shifts",
+        "text": "Several payment methods on one bill, opening and closing of shifts, a cash drawer, and refunds approved by the manager."
+      },
+      {
+        "title": "Service charge and VAT",
+        "text": "Service charge, packing or delivery fees by type of bill (dine-in, takeaway, delivery), with VAT worked out on top. You set the percentages."
+      },
+      {
+        "title": "Promotions and packages",
+        "text": "Percentage promotions by day, hour, payment method or menu. Bundles such as \"coffee plus two lattes\", and prepaid vouchers such as five coffees to take later."
+      },
+      {
+        "title": "Customer display",
+        "text": "A second screen facing the guest shows the bill as it grows, the promotions of the moment, the QRIS code and a thank-you."
+      },
+      {
+        "title": "Tablets and touch screens",
+        "text": "Touch mode with big buttons and an on-screen number pad, full screen, and an installable app icon when your site runs over HTTPS."
+      },
+      {
+        "title": "Cost control",
+        "text": "Food cost % for every dish against your target, alerts when ingredients get dearer, and records for waste, staff meals and stock count differences."
+      }
+    ],
+    "more": [
+      {
+        "title": "Reports for the owner",
+        "text": "A restaurant dashboard with sales, average bill, sales by weekday and hour, top menu items and payment methods, plus a daily sales sheet split into food and beverage."
+      },
+      {
+        "title": "The back office is included",
+        "text": "Ingredient purchasing with unit conversions (buy in kg, use in grams), suppliers, stock counts, prepared items such as sauces and doughs, accounting, bank reconciliation, budgets and tax, in the same system."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Where Innologic fits",
+    "sub": "An honest, general picture. Every business and product is different.",
+    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.",
+    "columns": [
+      "Spreadsheets",
+      "Basic accounting apps",
+      "Large ERP systems",
+      "Innologic"
+    ],
+    "rows": [
+      {
+        "label": "Orders, stock and books connected",
+        "cells": [
+          "By hand",
+          "Often limited",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Stock by warehouse",
+        "cells": [
+          "By hand",
+          "Varies",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Several companies in one group",
+        "cells": [
+          "Hard",
+          "Varies",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Time to get started",
+        "cells": [
+          "Immediate",
+          "Days",
+          "Months",
+          "Weeks, with our help"
+        ]
+      },
+      {
+        "label": "Runs on your own server",
+        "cells": [
+          "Yes",
+          "Often cloud only",
+          "Often",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Direct line to the people who build it",
+        "cells": [
+          "n/a",
+          "Support desk",
+          "Through partners",
+          "Yes"
+        ]
+      }
+    ]
+  },
+  "how": {
+    "heading": "How we work with you",
+    "sub": "You are never left alone with a manual.",
+    "steps": [
+      {
+        "title": "We listen",
+        "text": "A short chat about how you sell, buy and keep stock. We show you the system and tell you honestly what fits."
+      },
+      {
+        "title": "We set it up",
+        "text": "Installation, chart of accounts, tax settings, users and roles, and import of your products, customers and vendors."
+      },
+      {
+        "title": "We stay with you",
+        "text": "Hands-on training for your team, then support, updates and changes as your business grows."
+      }
+    ],
+    "note": "Setup, training, custom changes and yearly support are quoted per company.",
+    "noteLink": "Ask for a quote."
+  },
+  "faq": {
+    "heading": "Questions we often hear",
+    "items": [
+      {
+        "q": "Do you have a point of sale for restaurants and cafés?",
+        "a": "Yes. The restaurant POS has a table floor plan, orders with notes, a kitchen screen and station tickets, split and merged bills, several payment methods, shifts and a cash drawer. Each dish has a recipe, so ingredients leave stock when you sell. Accounting, purchasing and tax are in the same system."
+      },
+      {
+        "q": "Which printers and devices does the restaurant POS work with?",
+        "a": "It runs in a browser on a PC, laptop or tablet. Kitchen, bar and receipt tickets can print on 58 mm or 80 mm thermal printers over your network (for example Epson TM-T82 or TM-T88, Xprinter, Sunmi), on a USB printer shared from the server PC, or through the normal browser print dialog. We test your printers during setup, and the receipt printer can open the cash drawer."
+      },
+      {
+        "q": "Can it add service charge and VAT to the bill?",
+        "a": "Yes. You can set service charge, packing or delivery fees by type of bill, and the VAT percentage (11% by default). Paid bills keep the percentages they were paid with. Please confirm the right rates with your tax advisor."
+      },
+      {
+        "q": "Do we need cloud hosting or constant internet?",
+        "a": "No. Innologic runs on a computer or small server in your office, and your staff use it in their browser over your network. Secure remote access can be arranged if you need it."
+      },
+      {
+        "q": "Can it handle several branches or companies?",
+        "a": "Yes. Branches and departments can be tracked separately, and each company keeps its own books, with billing between companies and group statements."
+      },
+      {
+        "q": "Can we bring our existing products and customers?",
+        "a": "Yes. We help import products, customers, vendors and opening balances so you do not start from zero."
+      },
+      {
+        "q": "Is our data safe?",
+        "a": "Users only see what their role allows, changes are recorded in an activity log, and two-factor login is available. We set up regular backups and recommend a copy on a second drive or in cloud storage."
+      },
+      {
+        "q": "Is the tax output ready to file?",
+        "a": "It records and exports the data you need for VAT, PPh and Coretax e-Faktur. Please confirm rates and filing details with your tax advisor."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "It depends on the size of your business and how much setup and training you need. Send us a message for a clear quote."
+      }
+    ]
+  },
+  "talk": {
+    "heading": "Tell us how your business runs today",
+    "text": "We reply personally, usually within one working day.",
+    "whatsapp": "Chat on WhatsApp",
+    "send": "Send message",
+    "note": "We use your details only to reply to you."
+  },
+  "footer": {
+    "tagline": "ERP software, setup, training and support.",
+    "rights": "Innologic. All rights reserved."
+  }
+}

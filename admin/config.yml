@@ -1,0 +1,233 @@
+# Website editor settings (Sveltia CMS). It edits one file, content.json, in the GitHub repository robz1107/innologic-website.
+# Every change you save becomes a commit on the "main" branch, and GitHub Pages republishes the site about a minute later.
+# Keep the field names below exactly as they are: they must match content.json.
+backend:
+  name: github
+  repo: robz1107/innologic-website
+  branch: main
+
+site_url: https://robz1107.github.io/innologic-website/
+media_folder: images
+public_folder: images
+publish_mode: simple
+locale: en
+
+collections:
+  - name: site
+    label: Website
+    files:
+      - name: content
+        label: All page text
+        file: content.json
+        format: json
+        fields:
+          - label: Browser tab and search result
+            name: meta
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Page title (browser tab and Google), name: title, widget: string }
+              - { label: Description shown under the title in Google, name: description, widget: text }
+
+          - label: Top bar and menu
+            name: topbar
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Button in the top bar, name: cta, widget: string }
+
+          - label: Side menu (opens with the three-line button)
+            name: menu
+            widget: object
+            collapsed: true
+            fields:
+              - label: Menu links (in the order of the sections; the number of links stays at 6)
+                name: links
+                widget: list
+                min: 6
+                max: 6
+                collapsed: false
+                field: { label: Link text, name: item, widget: string }
+              - { label: WhatsApp button, name: whatsapp, widget: string }
+              - { label: Contact form button, name: form, widget: string }
+
+          - label: 1. Top of the page (hero)
+            name: hero
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small orange label, name: kicker, widget: string }
+              - { label: Headline (first part, black), name: headline, widget: string }
+              - { label: Headline (second part, green italic), name: headlineEm, widget: string }
+              - { label: Paragraph under the headline, name: text, widget: text }
+              - { label: WhatsApp button, name: whatsapp, widget: string }
+              - { label: Second button, name: seeMore, widget: string }
+              - { label: Small line under the buttons, name: fine, widget: string }
+              - { label: Caption under the dashboard picture, name: caption, widget: string }
+
+          - label: 2. One ordinary day
+            name: day
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Section heading, name: heading, widget: string }
+              - { label: Line under the heading, name: sub, widget: string }
+              - label: The six moments (each has a picture, so the number stays at 6)
+                name: moments
+                widget: list
+                min: 6
+                max: 6
+                collapsed: true
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: text }
+                  - { label: Small tag (for example Sales), name: tag, widget: string }
+                  - { label: Picture caption, name: caption, widget: string }
+
+          - label: 3. What is inside (tabs)
+            name: tour
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Section heading, name: heading, widget: string }
+              - { label: Line under the heading, name: sub, widget: string }
+              - label: The five tabs (each has a picture, so the number stays at 5)
+                name: areas
+                widget: list
+                min: 5
+                max: 5
+                collapsed: true
+                summary: "{{fields.tab}}"
+                fields:
+                  - { label: Tab name, name: tab, widget: string }
+                  - { label: Title inside the tab, name: title, widget: string }
+                  - { label: Text inside the tab, name: text, widget: text }
+                  - label: Bullet points (you can add and remove them)
+                    name: bullets
+                    widget: list
+                    field: { label: Bullet, name: item, widget: string }
+                  - { label: Picture caption, name: caption, widget: string }
+
+          - label: 4. Restaurant POS
+            name: fnb
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small orange label, name: kicker, widget: string }
+              - { label: Section heading, name: heading, widget: string }
+              - { label: Paragraph, name: text, widget: text }
+              - { label: Demo button (WhatsApp), name: demo, widget: string }
+              - { label: Second button, name: features, widget: string }
+              - { label: Note under the sample screen, name: mockNote, widget: string }
+              - { label: Heading of the five steps, name: flowHeading, widget: string }
+              - { label: Line under that heading, name: flowSub, widget: string }
+              - label: The steps (you can add and remove them)
+                name: flow
+                widget: list
+                collapsed: true
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Step title, name: title, widget: string }
+                  - { label: Step text, name: text, widget: text }
+              - { label: Heading of the feature cards, name: featuresHeading, widget: string }
+              - { label: Line under that heading, name: featuresSub, widget: string }
+              - label: The nine feature cards (each has a small picture, so the number stays at 9)
+                name: cards
+                widget: list
+                min: 9
+                max: 9
+                collapsed: true
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Card title, name: title, widget: string }
+                  - { label: Card text, name: text, widget: text }
+              - label: The two boxes under the cards (you can add and remove them)
+                name: more
+                widget: list
+                collapsed: true
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Box title, name: title, widget: string }
+                  - { label: Box text, name: text, widget: text }
+              - { label: Small print at the bottom of the section, name: note, widget: text }
+
+          - label: 5. Where Innologic fits (comparison table)
+            name: compare
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Section heading, name: heading, widget: string }
+              - { label: Line under the heading, name: sub, widget: string }
+              - label: Column names (4 columns; the last one is Innologic, in green)
+                name: columns
+                widget: list
+                min: 4
+                max: 4
+                field: { label: Column name, name: item, widget: string }
+              - label: Rows (you can add and remove them)
+                name: rows
+                widget: list
+                collapsed: true
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: Row title, name: label, widget: string }
+                  - label: The four answers, in the order of the columns above
+                    name: cells
+                    widget: list
+                    min: 4
+                    max: 4
+                    field: { label: Answer, name: item, widget: string }
+              - { label: Small print under the table, name: note, widget: text }
+
+          - label: 6. How we work
+            name: how
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Section heading, name: heading, widget: string }
+              - { label: Line under the heading, name: sub, widget: string }
+              - label: The steps (you can add and remove them)
+                name: steps
+                widget: list
+                collapsed: true
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Step title, name: title, widget: string }
+                  - { label: Step text, name: text, widget: text }
+              - { label: Small print (the words before the link), name: note, widget: string }
+              - { label: Link at the end of the small print, name: noteLink, widget: string }
+
+          - label: 7. Questions we often hear (FAQ)
+            name: faq
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Section heading, name: heading, widget: string }
+              - label: Questions and answers (you can add, remove and reorder them)
+                name: items
+                widget: list
+                collapsed: true
+                summary: "{{fields.q}}"
+                fields:
+                  - { label: Question, name: q, widget: string }
+                  - { label: Answer, name: a, widget: text }
+
+          - label: 8. Contact section
+            name: talk
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Text under the heading, name: text, widget: string }
+              - { label: WhatsApp button, name: whatsapp, widget: string }
+              - { label: Send button of the form, name: send, widget: string }
+              - { label: Small line under the form, name: note, widget: string }
+
+          - label: 9. Footer
+            name: footer
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Copyright words (the year is added automatically), name: rights, widget: string }
+              - { label: Right-hand line, name: tagline, widget: string }
