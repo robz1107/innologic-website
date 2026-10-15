@@ -7,8 +7,6 @@
     "cta": "Talk to us"
   },
   "menu": {
-    "whatsapp": "Message us on WhatsApp",
-    "form": "Contact form",
     "links": [
       "One ordinary day",
       "What is inside",
@@ -16,17 +14,19 @@
       "Where we fit",
       "How we work",
       "Questions"
-    ]
+    ],
+    "whatsapp": "Message us on WhatsApp",
+    "form": "Contact form"
   },
   "hero": {
-    "kicker": "Business software, set up for you",
+    "kicker": "TEST",
+    "headline": "Your whole business,",
+    "headlineEm": "in one calm system.",
     "text": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax stay connected, so you stop retyping and start trusting your numbers.",
     "whatsapp": "Message us on WhatsApp",
     "seeMore": "See what it does",
     "fine": "The first conversation is free, and we will tell you honestly if it is not the right fit.",
-    "caption": "The dashboard of a demo company. All screens on this page show sample data.",
-    "headline": "Your whole business,",
-    "headlineEm": "in one calm system."
+    "caption": "The dashboard of a demo company. All screens on this page show sample data."
   },
   "day": {
     "heading": "One ordinary day, one connected system",
@@ -149,9 +149,6 @@
     "mockNote": "An illustration with sample dishes and numbers.",
     "flowHeading": "From the table to the books",
     "flowSub": "One order, five steps, nothing typed twice.",
-    "featuresHeading": "What the restaurant POS covers",
-    "featuresSub": "Everything the floor needs, with the back office behind it.",
-    "note": "Not included today: self-order kiosks and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood). If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor.",
     "flow": [
       {
         "title": "Open the table",
@@ -174,6 +171,8 @@
         "text": "Ingredients leave stock by recipe and the sale lands in the day's report and the books."
       }
     ],
+    "featuresHeading": "What the restaurant POS covers",
+    "featuresSub": "Everything the floor needs, with the back office behind it.",
     "cards": [
       {
         "title": "Tables and floor plan",
@@ -221,12 +220,12 @@
         "title": "The back office is included",
         "text": "Ingredient purchasing with unit conversions (buy in kg, use in grams), suppliers, stock counts, prepared items such as sauces and doughs, accounting, bank reconciliation, budgets and tax, in the same system."
       }
-    ]
+    ],
+    "note": "Not included today: self-order kiosks and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood). If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor."
   },
   "compare": {
     "heading": "Where Innologic fits",
     "sub": "An honest, general picture. Every business and product is different.",
-    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.",
     "columns": [
       "Spreadsheets",
       "Basic accounting apps",
@@ -288,7 +287,8 @@
           "Yes"
         ]
       }
-    ]
+    ],
+    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so."
   },
   "how": {
     "heading": "How we work with you",
@@ -359,7 +359,7 @@
     "note": "We use your details only to reply to you."
   },
   "footer": {
-    "tagline": "ERP software, setup, training and support.",
-    "rights": "Innologic. All rights reserved."
+    "rights": "Innologic. All rights reserved.",
+    "tagline": "ERP software, setup, training and support."
   }
 }
