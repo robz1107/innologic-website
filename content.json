@@ -7,6 +7,8 @@
     "cta": "Talk to us"
   },
   "menu": {
+    "whatsapp": "Message us on WhatsApp",
+    "form": "Contact form",
     "links": [
       "One ordinary day",
       "What is inside",
@@ -14,19 +16,17 @@
       "Where we fit",
       "How we work",
       "Questions"
-    ],
-    "whatsapp": "Message us on WhatsApp",
-    "form": "Contact form"
+    ]
   },
   "hero": {
-    "kicker": "Business Software setup for you",
-    "headline": "Your whole business,",
-    "headlineEm": "in one calm system.",
+    "kicker": "Business software, set up for you",
     "text": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax stay connected, so you stop retyping and start trusting your numbers.",
     "whatsapp": "Message us on WhatsApp",
     "seeMore": "See what it does",
     "fine": "The first conversation is free, and we will tell you honestly if it is not the right fit.",
-    "caption": "The dashboard of a demo company. All screens on this page show sample data."
+    "caption": "The dashboard of a demo company. All screens on this page show sample data.",
+    "headline": "Your whole business,",
+    "headlineEm": "in one calm system."
   },
   "day": {
     "heading": "One ordinary day, one connected system",
@@ -137,6 +137,19 @@
           "Files attached to documents"
         ],
         "caption": "Role access per type of user"
+      },
+      {
+        "tab": "Assembly",
+        "title": "Build packages and kits from your stock",
+        "text": "Turn components into a finished product, such as a hamper, a bundle or a simple assembled item, and know exactly what it cost.",
+        "bullets": [
+          "A bill of materials (recipe) per finished product, with components and labour per unit",
+          "Assembly orders that take the components out of a warehouse and add the finished product",
+          "Cost per unit from the components' average cost plus labour",
+          "A check that enough components are in stock, and how many units you could build",
+          "Cancel an assembly and everything goes back at the cost it left at"
+        ],
+        "caption": "Assembly order with stock check and cost"
       }
     ]
   },
@@ -149,6 +162,9 @@
     "mockNote": "An illustration with sample dishes and numbers.",
     "flowHeading": "From the table to the books",
     "flowSub": "One order, five steps, nothing typed twice.",
+    "featuresHeading": "What the restaurant POS covers",
+    "featuresSub": "Everything the floor needs, with the back office behind it.",
+    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor.",
     "flow": [
       {
         "title": "Open the table",
@@ -171,8 +187,6 @@
         "text": "Ingredients leave stock by recipe and the sale lands in the day's report and the books."
       }
     ],
-    "featuresHeading": "What the restaurant POS covers",
-    "featuresSub": "Everything the floor needs, with the back office behind it.",
     "cards": [
       {
         "title": "Tables and floor plan",
@@ -213,19 +227,39 @@
     ],
     "more": [
       {
+        "title": "Guests order from the table",
+        "text": "Every table has its own QR code. Guests scan it with their phone, see the menu with pictures, send their order, call the waiter or ask for the bill, with no app and no login. Staff accept the order and it goes straight to the kitchen or bar."
+      },
+      {
+        "title": "GoFood, GrabFood and ShopeeFood orders",
+        "text": "The cashier types each order from the platform's tablet. The commission is worked out, what the platform owes you is booked as a receivable, and every payout is matched to the orders it paid. Orders are entered by hand, not imported automatically."
+      },
+      {
+        "title": "Control at the counter",
+        "text": "A supervisor PIN is needed to void a dish the kitchen already has or to give a big discount. A report shows voids, discounts, reprints and cash differences per cashier, so you know where to look."
+      },
+      {
         "title": "Reports for the owner",
-        "text": "A restaurant dashboard with sales, average bill, sales by weekday and hour, top menu items and payment methods, plus a daily sales sheet split into food and beverage."
+        "text": "A restaurant dashboard with sales, average bill, sales by weekday and hour, top menu items and payment methods. It also shows your prime cost against a target, which dishes earn money (menu engineering), and a daily sales sheet split into food and beverage."
+      },
+      {
+        "title": "Staff roles and devices",
+        "text": "Manager, cashier or waiter, kitchen and bar, and purchasing and stock roles, each with its own access. Every tablet or PC that logs in is registered as a device, and you can block one that is lost."
       },
       {
         "title": "The back office is included",
         "text": "Ingredient purchasing with unit conversions (buy in kg, use in grams), suppliers, stock counts, prepared items such as sauces and doughs, accounting, bank reconciliation, budgets and tax, in the same system."
+      },
+      {
+        "title": "Loyalty members",
+        "text": "Guests join as members at the cashier or by scanning a QR code, and earn points on every paid bill. Set your own tiers (for example Silver and Gold) with bigger rewards, let guests pay part of the bill with points, give a birthday dish, and set how long a membership lasts. Reports show your top members and points earned, used and expired."
       }
-    ],
-    "note": "Not included today: self-order kiosks and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood). If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor."
+    ]
   },
   "compare": {
     "heading": "Where Innologic fits",
     "sub": "An honest, general picture. Every business and product is different.",
+    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.",
     "columns": [
       "Spreadsheets",
       "Basic accounting apps",
@@ -287,8 +321,7 @@
           "Yes"
         ]
       }
-    ],
-    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so."
+    ]
   },
   "how": {
     "heading": "How we work with you",
@@ -316,6 +349,14 @@
       {
         "q": "Do you have a point of sale for restaurants and cafés?",
         "a": "Yes. The restaurant POS has a table floor plan, orders with notes, a kitchen screen and station tickets, split and merged bills, several payment methods, shifts and a cash drawer. Each dish has a recipe, so ingredients leave stock when you sell. Accounting, purchasing and tax are in the same system."
+      },
+      {
+        "q": "Can guests order from their phone at the table?",
+        "a": "Yes. Every table has a QR code. Guests scan it, choose from the menu and send the order, and your staff accept it before it goes to the kitchen or bar. No app or login is needed. On your restaurant Wi-Fi it works on your own network. For guests on mobile data, the system needs an internet address (HTTPS), which we help you set up."
+      },
+      {
+        "q": "Does it connect to GoFood, GrabFood and ShopeeFood?",
+        "a": "Not automatically yet. The cashier types the order from the platform's tablet. The system then books the sale, works out the commission, records what the platform owes you, and matches each payout to its orders. Automatic import is not available today."
       },
       {
         "q": "Which printers and devices does the restaurant POS work with?",
@@ -359,7 +400,7 @@
     "note": "We use your details only to reply to you."
   },
   "footer": {
-    "rights": "Innologic. All rights reserved.",
-    "tagline": "ERP software, setup, training and support."
+    "tagline": "ERP software, setup, training and support.",
+    "rights": "Innologic. All rights reserved."
   }
 }
