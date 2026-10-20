@@ -75,8 +75,8 @@ collections:
               - label: The six moments (each has a picture, so the number stays at 6)
                 name: moments
                 widget: list
-                min: 7
-                max: 7
+                min: 6
+                max: 6
                 collapsed: true
                 summary: "{{fields.title}}"
                 fields:
@@ -92,11 +92,11 @@ collections:
             fields:
               - { label: Section heading, name: heading, widget: string }
               - { label: Line under the heading, name: sub, widget: string }
-              - label: The five tabs (each has a picture, so the number stays at 5)
+              - label: The six tabs (each has a picture, so the number stays at 6)
                 name: areas
                 widget: list
-                min: 5
-                max: 5
+                min: 6
+                max: 6
                 collapsed: true
                 summary: "{{fields.tab}}"
                 fields:
