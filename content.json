@@ -7,8 +7,6 @@
     "cta": "Talk to us"
   },
   "menu": {
-    "whatsapp": "Message us on WhatsApp",
-    "form": "Contact form",
     "links": [
       "One ordinary day",
       "What is inside",
@@ -17,17 +15,19 @@
       "Where we fit",
       "How we work",
       "Questions"
-    ]
+    ],
+    "whatsapp": "Message us on WhatsApp",
+    "form": "Contact form"
   },
   "hero": {
     "kicker": "Business software, set up for you",
+    "headline": "Your whole business,",
+    "headlineEm": "in one calm system.",
     "text": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax stay connected, so you stop retyping and start trusting your numbers.",
     "whatsapp": "Message us on WhatsApp",
     "seeMore": "See what it does",
     "fine": "The first conversation is free, and we will tell you honestly if it is not the right fit.",
-    "caption": "The dashboard of a demo company. All screens on this page show sample data.",
-    "headline": "Your whole business,",
-    "headlineEm": "in one calm system."
+    "caption": "The dashboard of a demo company. All screens on this page show sample data."
   },
   "day": {
     "heading": "One ordinary day, one connected system",
@@ -163,9 +163,6 @@
     "mockNote": "An illustration with sample dishes and numbers.",
     "flowHeading": "From the table to the books",
     "flowSub": "One order, five steps, nothing typed twice.",
-    "featuresHeading": "What the restaurant POS covers",
-    "featuresSub": "Everything the floor needs, with the back office behind it.",
-    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor.",
     "flow": [
       {
         "title": "Open the table",
@@ -188,6 +185,8 @@
         "text": "Ingredients leave stock by recipe and the sale lands in the day's report and the books."
       }
     ],
+    "featuresHeading": "What the restaurant POS covers",
+    "featuresSub": "Everything the floor needs, with the back office behind it.",
     "cards": [
       {
         "title": "Tables and floor plan",
@@ -255,7 +254,8 @@
         "title": "Loyalty members",
         "text": "Guests join as members at the cashier or by scanning a QR code, and earn points on every paid bill. Set your own tiers (for example Silver and Gold) with bigger rewards, let guests pay part of the bill with points, give a birthday dish, and set how long a membership lasts. Reports show your top members and points earned, used and expired."
       }
-    ]
+    ],
+    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor."
   },
   "pricing": {
     "heading": "Plans and prices for restaurants and cafés",
@@ -417,7 +417,7 @@
         "cells": [
           "1",
           "Up to 5",
-          "Up to 20"
+          "Up to 10"
         ]
       },
       {
@@ -442,7 +442,6 @@
   "compare": {
     "heading": "Where Innologic fits",
     "sub": "An honest, general picture. Every business and product is different.",
-    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.",
     "columns": [
       "Spreadsheets",
       "Basic accounting apps",
@@ -504,7 +503,8 @@
           "Yes"
         ]
       }
-    ]
+    ],
+    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so."
   },
   "how": {
     "heading": "How we work with you",
@@ -583,7 +583,7 @@
     "note": "We use your details only to reply to you."
   },
   "footer": {
-    "tagline": "ERP software, setup, training and support.",
-    "rights": "Innologic. All rights reserved."
+    "rights": "Innologic. All rights reserved.",
+    "tagline": "ERP software, setup, training and support."
   }
 }
