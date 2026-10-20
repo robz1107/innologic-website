@@ -13,6 +13,7 @@
       "One ordinary day",
       "What is inside",
       "Restaurant POS",
+      "Pricing",
       "Where we fit",
       "How we work",
       "Questions"
@@ -256,6 +257,188 @@
       }
     ]
   },
+  "pricing": {
+    "heading": "Plans and prices for restaurants and cafés",
+    "sub": "Three plans for Innologic Resto. Pick the one that fits today and move up when you grow.",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "Rp 299,000",
+        "per": "per outlet, per month",
+        "text": "For a small restaurant or café: cashier, kitchen, menu, tables and daily reports.",
+        "setup": "One-time setup: Rp 2,000,000"
+      },
+      {
+        "name": "Advance",
+        "price": "Rp 499,000",
+        "per": "per outlet, per month",
+        "text": "Adds purchasing, promotions, customers, guest ordering by QR and cost control.",
+        "setup": "One-time setup: Rp 5,000,000"
+      },
+      {
+        "name": "Pro",
+        "price": "Rp 999,000",
+        "per": "per outlet, per month",
+        "text": "Everything: accounting, tax, owner dashboard, loyalty members, fraud watch and groups of outlets.",
+        "setup": "One-time setup: Rp 8,000,000"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Cashier screen, tablet mode, receipts and printers",
+        "cells": [
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Table layout, move and merge tables, split bills",
+        "cells": [
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Menu with categories, kitchen and bar tickets",
+        "cells": [
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Stock count and daily sales reports",
+        "cells": [
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Purchasing and suppliers",
+        "cells": [
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Vouchers and promotions",
+        "cells": [
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Customer records",
+        "cells": [
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Guests order from the table by QR code",
+        "cells": [
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Cost control: food cost, waste and staff meals",
+        "cells": [
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Cash and more reports",
+        "cells": [
+          "No",
+          "Yes",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Accounting, bank reconciliation, budgets and tax",
+        "cells": [
+          "No",
+          "No",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Owner dashboard, menu engineering and prime cost",
+        "cells": [
+          "No",
+          "No",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Cashier fraud watch with supervisor PIN",
+        "cells": [
+          "No",
+          "No",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Loyalty members: points, tiers and birthday gift",
+        "cells": [
+          "No",
+          "No",
+          "Yes"
+        ]
+      },
+      {
+        "label": "GoFood, GrabFood and ShopeeFood orders (typed in by the cashier)",
+        "cells": [
+          "No",
+          "No",
+          "Yes"
+        ]
+      },
+      {
+        "label": "Companies in one group",
+        "cells": [
+          "1",
+          "Up to 5",
+          "Up to 10"
+        ]
+      },
+      {
+        "label": "Cashier terminals per company",
+        "cells": [
+          "1",
+          "Up to 5",
+          "Up to 20"
+        ]
+      },
+      {
+        "label": "Users",
+        "cells": [
+          "Up to 5",
+          "Up to 10",
+          "Up to 50"
+        ]
+      },
+      {
+        "label": "Devices (tablets and PCs)",
+        "cells": [
+          "Up to 3",
+          "Up to 10",
+          "Up to 30"
+        ]
+      }
+    ],
+    "note": "Prices are per outlet per month, before VAT and hardware. Setup covers installation, menu import, tax and printer settings, and training. Innologic Trade (for trading and distribution) follows the same three price levels: tell us what you need and we will confirm what each plan includes."
+  },
   "compare": {
     "heading": "Where Innologic fits",
     "sub": "An honest, general picture. Every business and product is different.",
@@ -340,7 +523,7 @@
         "text": "Hands-on training for your team, then support, updates and changes as your business grows."
       }
     ],
-    "note": "Setup, training, custom changes and yearly support are quoted per company.",
+    "note": "Setup, training and custom changes are quoted per company; plans are priced per outlet per month.",
     "noteLink": "Ask for a quote."
   },
   "faq": {

@@ -41,11 +41,11 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Menu links (in the order of the sections; the number of links stays at 6)
+              - label: Menu links (in the order of the sections; the number of links stays at 7)
                 name: links
                 widget: list
-                min: 6
-                max: 6
+                min: 7
+                max: 7
                 collapsed: false
                 field: { label: Link text, name: item, widget: string }
               - { label: WhatsApp button, name: whatsapp, widget: string }
@@ -75,8 +75,8 @@ collections:
               - label: The six moments (each has a picture, so the number stays at 6)
                 name: moments
                 widget: list
-                min: 6
-                max: 6
+                min: 7
+                max: 7
                 collapsed: true
                 summary: "{{fields.title}}"
                 fields:
@@ -151,6 +151,41 @@ collections:
                   - { label: Box title, name: title, widget: string }
                   - { label: Box text, name: text, widget: text }
               - { label: Small print at the bottom of the section, name: note, widget: text }
+
+          - label: 4b. Plans and prices
+            name: pricing
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Section heading, name: heading, widget: string }
+              - { label: Line under the heading, name: sub, widget: string }
+              - label: The three plans (the number stays at 3)
+                name: plans
+                widget: list
+                min: 3
+                max: 3
+                collapsed: true
+                summary: "{{fields.name}}"
+                fields:
+                  - { label: Plan name (also the table column name), name: name, widget: string }
+                  - { label: Price, name: price, widget: string }
+                  - { label: Small line under the price, name: per, widget: string }
+                  - { label: Short description, name: text, widget: text }
+                  - { label: Setup fee line, name: setup, widget: string }
+              - label: Rows of the comparison table (you can add and remove them)
+                name: rows
+                widget: list
+                collapsed: true
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: What you get, name: label, widget: string }
+                  - label: Answer for Basic, Advance and Pro, in this order
+                    name: cells
+                    widget: list
+                    min: 3
+                    max: 3
+                    field: { label: Answer, name: item, widget: string }
+              - { label: Small print under the table, name: note, widget: text }
 
           - label: 5. Where Innologic fits (comparison table)
             name: compare
