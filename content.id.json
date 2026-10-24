@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "title": "Innologic | Software bisnis yang mengikuti seluruh hari kerja Anda",
+    "description": "Innologic adalah software ERP untuk perusahaan perdagangan, ritel, dan distribusi, dengan sistem kasir (POS) untuk restoran dan kafe. Pesanan, stok, pembelian, keuangan, dan pajak dalam satu sistem yang tenang, dipasang dan didukung langsung oleh orang-orang yang membuatnya."
+  },
+  "topbar": {
+    "cta": "Hubungi kami"
+  },
+  "menu": {
+    "whatsapp": "Kirim pesan lewat WhatsApp",
+    "form": "Formulir kontak",
+    "links": [
+      "Satu hari kerja biasa",
+      "Apa saja isinya",
+      "POS Restoran",
+      "Harga",
+      "Posisi kami",
+      "Cara kami bekerja",
+      "Pertanyaan"
+    ]
+  },
+  "hero": {
+    "kicker": "Software bisnis, dipasangkan untuk Anda",
+    "text": "Innologic adalah software ERP untuk perusahaan perdagangan, ritel, dan distribusi, dengan sistem kasir (POS) untuk restoran dan kafe. Pesanan, stok, pembelian, keuangan, dan pajak saling terhubung, jadi Anda tidak perlu lagi mengetik ulang dan bisa percaya pada angka Anda.",
+    "whatsapp": "Kirim pesan lewat WhatsApp",
+    "seeMore": "Lihat fungsinya",
+    "fine": "Percakapan pertama gratis, dan kami akan jujur mengatakan jika ini bukan solusi yang tepat untuk Anda.",
+    "caption": "Dashboard sebuah perusahaan contoh. Semua tampilan di halaman ini memakai data contoh.",
+    "headline": "Seluruh bisnis Anda,",
+    "headlineEm": "dalam satu sistem yang tenang."
+  },
+  "day": {
+    "heading": "Satu hari kerja biasa, satu sistem yang terhubung",
+    "sub": "Setiap langkah meneruskan hasilnya ke langkah berikutnya, jadi tidak ada lagi yang bertanya \"spreadsheet mana yang benar?\"",
+    "moments": [
+      {
+        "title": "Pesanan masuk",
+        "text": "Penawaran berubah menjadi pesanan penjualan. Pesanan besar bisa menunggu persetujuan.",
+        "tag": "Penjualan",
+        "caption": "Pesanan penjualan"
+      },
+      {
+        "title": "Gudang mengirim",
+        "text": "Pengiriman mengambil stok dari gudang yang tepat. Barang yang dibayar di muka ditahan sampai uangnya masuk.",
+        "tag": "Stok",
+        "caption": "Barang ditahan sampai dibayar"
+      },
+      {
+        "title": "Kasir berjualan",
+        "text": "Kasir mengetuk atau memindai produk, menerima tunai, QRIS, kartu, atau transfer, lalu mencetak struk. Setiap penjualan memperbarui stok dan pembukuan.",
+        "tag": "Kasir (POS)",
+        "caption": "Kasir (POS)"
+      },
+      {
+        "title": "Faktur dan pembayaran",
+        "text": "Faktur, PPN, kuitansi, dan pencocokan bank memperbarui pembukuan selagi Anda bekerja.",
+        "tag": "Keuangan",
+        "caption": "Faktur dengan pembayaran"
+      },
+      {
+        "title": "Stok tetap terkendali",
+        "text": "Lihat apa yang laku cepat, apa yang menumpuk di rak, dan di mana uang Anda tertahan.",
+        "tag": "Persediaan",
+        "caption": "Dashboard persediaan"
+      },
+      {
+        "title": "Tutup bulan lebih tenang",
+        "text": "Neraca, laporan laba rugi, arus kas, dan catatan pajak sudah tersedia.",
+        "tag": "Laporan dan pajak",
+        "caption": "Laporan laba rugi"
+      }
+    ]
+  },
+  "tour": {
+    "heading": "Apa saja isinya",
+    "sub": "Pilih satu area untuk melihat cakupannya.",
+    "areas": [
+      {
+        "tab": "Penjualan",
+        "title": "Dari penawaran pertama sampai pembayaran akhir",
+        "text": "Baik Anda menjual per dus maupun di kasir, data pelanggan dan harga yang sama menjadi dasar setiap dokumen.",
+        "bullets": [
+          "Penawaran, pesanan penjualan, pengiriman, dan faktur",
+          "Pembayaran masuk, uang muka, dan nota kredit",
+          "Rekening koran pelanggan dan pengingat jatuh tempo",
+          "Kasir (POS) dengan sesi, retur, dan beberapa metode pembayaran",
+          "Pencarian garansi berdasarkan nomor seri"
+        ],
+        "caption": "Pesanan penjualan"
+      },
+      {
+        "tab": "Pembelian dan stok",
+        "title": "Tahu apa yang Anda punya dan di mana",
+        "text": "Stok dilacak per gudang, dan pembelian mengalir dari permintaan sampai pembayaran dengan persetujuan yang tepat.",
+        "bullets": [
+          "Permintaan pembelian, pesanan, penerimaan barang, dan faktur vendor",
+          "Batas persetujuan per orang",
+          "Transfer antar gudang dan stok opname",
+          "Biaya pendaratan (landed cost) dan revaluasi stok",
+          "Retur ke vendor dan dari pelanggan"
+        ],
+        "caption": "Pesanan pembelian, dari permintaan sampai penerimaan"
+      },
+      {
+        "tab": "Keuangan",
+        "title": "Pembukuan yang tertulis dengan sendirinya",
+        "text": "Setiap dokumen membuat jurnalnya sendiri, sehingga laporan selalu terbaru.",
+        "bullets": [
+          "Neraca saldo, neraca, laporan laba rugi, dan arus kas",
+          "Rekening bank, voucher, dan rekonsiliasi bank",
+          "Anggaran per cabang atau departemen",
+          "Aset tetap dengan penyusutan otomatis",
+          "Tutup buku akhir tahun"
+        ],
+        "caption": "Laporan arus kas"
+      },
+      {
+        "tab": "Pajak",
+        "title": "Siap untuk praktik di Indonesia",
+        "text": "Catatan dan ekspor yang diminta konsultan pajak Anda. Selalu konfirmasikan tarif dan cara pelaporan dengan mereka.",
+        "bullets": [
+          "Laporan PPN",
+          "Pemotongan PPh 23 dan 4(2), pada pembayaran vendor dan pelanggan",
+          "PPh final untuk usaha kecil",
+          "Ekspor XML e-Faktur Coretax"
+        ],
+        "caption": "Ekspor e-Faktur untuk Coretax"
+      },
+      {
+        "tab": "Grup dan kontrol",
+        "title": "Beberapa perusahaan, satu pemilik yang cermat",
+        "text": "Pisahkan setiap perusahaan, namun tetap lihat seluruh grup.",
+        "bullets": [
+          "Pembukuan terpisah untuk setiap perusahaan",
+          "Penagihan antar perusahaan Anda sendiri",
+          "Laporan konsolidasi untuk grup",
+          "Peran pengguna, log aktivitas, dan login dua faktor",
+          "Lampiran file pada dokumen"
+        ],
+        "caption": "Hak akses per jenis pengguna"
+      },
+      {
+        "tab": "Perakitan",
+        "title": "Buat paket dan kit dari stok Anda",
+        "text": "Ubah komponen menjadi produk jadi, seperti parsel, bundel, atau barang rakitan sederhana, dan ketahui persis berapa biayanya.",
+        "bullets": [
+          "Daftar bahan (resep) per produk jadi, lengkap dengan komponen dan tenaga kerja per unit",
+          "Order perakitan yang mengambil komponen dari gudang dan menambahkan produk jadi",
+          "Biaya per unit dari biaya rata-rata komponen ditambah tenaga kerja",
+          "Pengecekan kecukupan komponen di stok, dan berapa unit yang bisa Anda rakit",
+          "Batalkan perakitan, dan semuanya kembali dengan biaya saat keluar"
+        ],
+        "caption": "Order perakitan dengan pengecekan stok dan biaya"
+      }
+    ]
+  },
+  "fnb": {
+    "kicker": "Untuk restoran dan kafe",
+    "heading": "Sistem kasir (POS) yang dibuat untuk restoran dan kafe",
+    "text": "Meja, dapur, tagihan, dan stok bekerja sebagai satu. Pelayan mencatat pesanan, dapur menerima tiketnya, tamu membayar, dan bahan baku serta pembukuan Anda diperbarui dengan sendirinya.",
+    "demo": "Minta demo restoran",
+    "features": "Lihat fiturnya",
+    "mockNote": "Ilustrasi dengan contoh hidangan dan angka.",
+    "flowHeading": "Dari meja sampai ke pembukuan",
+    "flowSub": "Satu pesanan, lima langkah, tanpa mengetik dua kali.",
+    "featuresHeading": "Apa saja yang dicakup POS restoran",
+    "featuresSub": "Semua yang dibutuhkan di lantai restoran, dengan back office di belakangnya.",
+    "note": "Belum termasuk saat ini: pemesanan dari website atau aplikasi Anda sendiri, dan impor otomatis pesanan aplikasi pesan antar (GoFood, GrabFood, ShopeeFood), yang diinput manual oleh kasir. Jika Anda membutuhkannya, beri tahu kami. Struk, biaya layanan, dan PPN sebaiknya dikonfirmasikan dengan konsultan pajak Anda.",
+    "flow": [
+      {
+        "title": "Buka meja",
+        "text": "Pilih di denah lantai dan tambahkan hidangan beserta catatannya, di PC atau tablet."
+      },
+      {
+        "title": "Kirim ke dapur",
+        "text": "Dapur dan bar masing-masing menerima tiket atau layarnya sendiri."
+      },
+      {
+        "title": "Sajikan dan tagih",
+        "text": "Pindahkan atau gabungkan meja, pisahkan tagihan, dan terapkan promosi."
+      },
+      {
+        "title": "Terima pembayaran",
+        "text": "Tunai, QRIS, kartu, atau transfer, bahkan beberapa sekaligus dalam satu tagihan."
+      },
+      {
+        "title": "Stok dan pembukuan menyusul",
+        "text": "Bahan baku keluar dari stok sesuai resep dan penjualan masuk ke laporan harian dan pembukuan."
+      }
+    ],
+    "cards": [
+      {
+        "title": "Meja dan denah lantai",
+        "text": "Gambar lantai dan meja Anda. Tagihan yang terbuka tampil di denah. Pindahkan rombongan ke meja lain, gabungkan dua tagihan, atau pisahkan satu tagihan."
+      },
+      {
+        "title": "Dapur dan bar",
+        "text": "Layar dapur menunjukkan apa yang harus dimasak, dan tiket tercetak per stasiun. Tandai hidangan siap dan tersaji saat keluar."
+      },
+      {
+        "title": "Menu dengan resep",
+        "text": "Grup, kategori, dan hidangan dengan foto. Setiap hidangan punya resep, sehingga setiap penjualan mengambil bahan dari stok dan menampilkan food cost."
+      },
+      {
+        "title": "Pembayaran dan shift",
+        "text": "Beberapa metode pembayaran dalam satu tagihan, buka dan tutup shift, laci kas, dan retur yang disetujui manajer."
+      },
+      {
+        "title": "Biaya layanan dan PPN",
+        "text": "Biaya layanan, biaya kemasan atau antar menurut jenis tagihan (makan di tempat, bawa pulang, antar), dengan PPN dihitung di atasnya. Anda yang menentukan persentasenya."
+      },
+      {
+        "title": "Promosi dan paket",
+        "text": "Promosi persentase menurut hari, jam, metode pembayaran, atau menu. Paket seperti \"kopi plus dua latte\", dan voucher prabayar seperti lima kopi untuk diambil nanti."
+      },
+      {
+        "title": "Layar pelanggan",
+        "text": "Layar kedua yang menghadap tamu menampilkan tagihan yang bertambah, promosi saat ini, kode QRIS, dan ucapan terima kasih."
+      },
+      {
+        "title": "Tablet dan layar sentuh",
+        "text": "Mode sentuh dengan tombol besar dan papan angka di layar, layar penuh, dan ikon aplikasi yang bisa dipasang bila situs Anda berjalan lewat HTTPS."
+      },
+      {
+        "title": "Kontrol biaya",
+        "text": "Food cost % untuk setiap hidangan terhadap target Anda, peringatan saat harga bahan naik, serta catatan untuk bahan terbuang, makan karyawan, dan selisih stok opname."
+      }
+    ],
+    "more": [
+      {
+        "title": "Tamu memesan dari meja",
+        "text": "Setiap meja punya kode QR sendiri. Tamu memindainya dengan ponsel, melihat menu bergambar, mengirim pesanan, memanggil pelayan, atau meminta tagihan, tanpa aplikasi dan tanpa login. Staf menerima pesanan dan langsung diteruskan ke dapur atau bar."
+      },
+      {
+        "title": "Pesanan GoFood, GrabFood, dan ShopeeFood",
+        "text": "Kasir mengetik setiap pesanan dari tablet platform. Komisi dihitung, tagihan platform kepada Anda dicatat sebagai piutang, dan setiap pencairan dicocokkan dengan pesanan yang dibayarnya. Pesanan diinput manual, bukan diimpor otomatis."
+      },
+      {
+        "title": "Kontrol di kasir",
+        "text": "PIN supervisor diperlukan untuk membatalkan hidangan yang sudah diterima dapur atau memberi diskon besar. Laporan menampilkan pembatalan, diskon, cetak ulang, dan selisih kas per kasir, sehingga Anda tahu di mana harus memeriksa."
+      },
+      {
+        "title": "Laporan untuk pemilik",
+        "text": "Dashboard restoran dengan penjualan, rata-rata tagihan, penjualan menurut hari dan jam, menu terlaris, dan metode pembayaran. Juga menampilkan prime cost terhadap target, hidangan mana yang menghasilkan uang (menu engineering), dan lembar penjualan harian yang dibagi menjadi makanan dan minuman."
+      },
+      {
+        "title": "Peran staf dan perangkat",
+        "text": "Peran manajer, kasir atau pelayan, dapur dan bar, serta pembelian dan stok, masing-masing dengan hak aksesnya sendiri. Setiap tablet atau PC yang login terdaftar sebagai perangkat, dan Anda bisa memblokir yang hilang."
+      },
+      {
+        "title": "Back office sudah termasuk",
+        "text": "Pembelian bahan baku dengan konversi satuan (beli dalam kg, pakai dalam gram), pemasok, stok opname, barang olahan seperti saus dan adonan, akuntansi, rekonsiliasi bank, anggaran, dan pajak, dalam satu sistem yang sama."
+      },
+      {
+        "title": "Member loyalty",
+        "text": "Tamu bergabung sebagai member di kasir atau dengan memindai kode QR, dan mendapat poin di setiap tagihan yang dibayar. Tentukan tier Anda sendiri (misalnya Silver dan Gold) dengan hadiah lebih besar, biarkan tamu membayar sebagian tagihan dengan poin, beri hidangan ulang tahun, dan atur lama masa berlaku keanggotaan. Laporan menampilkan member teratas serta poin yang didapat, dipakai, dan kedaluwarsa."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Paket dan harga untuk restoran dan kafe",
+    "sub": "Tiga paket Innologic Resto. Pilih yang cocok hari ini dan naik paket saat Anda berkembang.",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "Rp 299.000",
+        "per": "per outlet, per bulan",
+        "text": "Untuk restoran atau kafe kecil: kasir, dapur, menu, meja, dan laporan harian.",
+        "setup": "Biaya setup satu kali: Rp 2.000.000"
+      },
+      {
+        "name": "Advance",
+        "price": "Rp 499.000",
+        "per": "per outlet, per bulan",
+        "text": "Menambah pembelian, promosi, pelanggan, pemesanan tamu lewat QR, dan kontrol biaya.",
+        "setup": "Biaya setup satu kali: Rp 5.000.000"
+      },
+      {
+        "name": "Pro",
+        "price": "Rp 999.000",
+        "per": "per outlet, per bulan",
+        "text": "Semuanya: akuntansi, pajak, dashboard pemilik, member loyalty, pemantauan kecurangan, dan grup outlet.",
+        "setup": "Biaya setup satu kali: Rp 8.000.000"
+      }
+    ],
+    "rows": [
+      { "label": "Layar kasir, mode tablet, struk, dan printer", "cells": ["Ya", "Ya", "Ya"] },
+      { "label": "Denah meja, pindah dan gabung meja, pisah tagihan", "cells": ["Ya", "Ya", "Ya"] },
+      { "label": "Menu dengan kategori, tiket dapur dan bar", "cells": ["Ya", "Ya", "Ya"] },
+      { "label": "Stok opname dan laporan penjualan harian", "cells": ["Ya", "Ya", "Ya"] },
+      { "label": "Pembelian dan pemasok", "cells": ["Tidak", "Ya", "Ya"] },
+      { "label": "Voucher dan promosi", "cells": ["Tidak", "Ya", "Ya"] },
+      { "label": "Data pelanggan", "cells": ["Tidak", "Ya", "Ya"] },
+      { "label": "Tamu memesan dari meja lewat kode QR", "cells": ["Tidak", "Ya", "Ya"] },
+      { "label": "Kontrol biaya: food cost, bahan terbuang, dan makan karyawan", "cells": ["Tidak", "Ya", "Ya"] },
+      { "label": "Kas dan laporan lainnya", "cells": ["Tidak", "Ya", "Ya"] },
+      { "label": "Akuntansi, rekonsiliasi bank, anggaran, dan pajak", "cells": ["Tidak", "Tidak", "Ya"] },
+      { "label": "Dashboard pemilik, menu engineering, dan prime cost", "cells": ["Tidak", "Tidak", "Ya"] },
+      { "label": "Pemantauan kecurangan kasir dengan PIN supervisor", "cells": ["Tidak", "Tidak", "Ya"] },
+      { "label": "Member loyalty: poin, tier, dan hadiah ulang tahun", "cells": ["Tidak", "Tidak", "Ya"] },
+      { "label": "Pesanan GoFood, GrabFood, dan ShopeeFood (diinput kasir)", "cells": ["Tidak", "Tidak", "Ya"] },
+      { "label": "Perusahaan dalam satu grup", "cells": ["1", "Hingga 5", "Hingga 10"] },
+      { "label": "Terminal kasir per perusahaan", "cells": ["1", "Hingga 5", "Hingga 20"] },
+      { "label": "Pengguna", "cells": ["Hingga 5", "Hingga 10", "Hingga 30"] },
+      { "label": "Perangkat (tablet dan PC)", "cells": ["Hingga 3", "Hingga 10", "Hingga 20"] }
+    ],
+    "note": "Harga per outlet per bulan, belum termasuk PPN dan perangkat keras. Biaya setup mencakup instalasi, impor menu, pengaturan pajak dan printer, serta pelatihan. Innologic Trade (untuk perdagangan dan distribusi) mengikuti tiga tingkat harga yang sama: beri tahu kebutuhan Anda dan kami akan menjelaskan isi setiap paket."
+  },
+  "compare": {
+    "heading": "Posisi Innologic",
+    "sub": "Gambaran umum yang jujur. Setiap bisnis dan produk berbeda.",
+    "note": "Kami tim kecil. Jika hari ini Anda membutuhkan perencanaan produksi pabrik atau penggajian, sistem yang lebih besar mungkin lebih cocok, dan kami akan mengatakannya.",
+    "columns": [
+      "Spreadsheet",
+      "Aplikasi akuntansi dasar",
+      "ERP besar",
+      "Innologic"
+    ],
+    "rows": [
+      { "label": "Pesanan, stok, dan pembukuan terhubung", "cells": ["Manual", "Sering terbatas", "Ya", "Ya"] },
+      { "label": "Stok per gudang", "cells": ["Manual", "Bervariasi", "Ya", "Ya"] },
+      { "label": "Beberapa perusahaan dalam satu grup", "cells": ["Sulit", "Bervariasi", "Ya", "Ya"] },
+      { "label": "Waktu untuk mulai", "cells": ["Langsung", "Hitungan hari", "Berbulan-bulan", "Hitungan minggu, dengan bantuan kami"] },
+      { "label": "Berjalan di server Anda sendiri", "cells": ["Ya", "Sering hanya cloud", "Sering", "Ya"] },
+      { "label": "Jalur langsung ke orang yang membuatnya", "cells": ["Tidak ada", "Meja bantuan", "Lewat mitra", "Ya"] }
+    ]
+  },
+  "how": {
+    "heading": "Cara kami bekerja dengan Anda",
+    "sub": "Anda tidak pernah ditinggal sendiri dengan buku panduan.",
+    "steps": [
+      {
+        "title": "Kami mendengarkan",
+        "text": "Obrolan singkat tentang cara Anda menjual, membeli, dan menyimpan stok. Kami menunjukkan sistemnya dan jujur mengatakan apa yang cocok."
+      },
+      {
+        "title": "Kami memasangnya",
+        "text": "Instalasi, bagan akun, pengaturan pajak, pengguna dan peran, serta impor produk, pelanggan, dan vendor Anda."
+      },
+      {
+        "title": "Kami tetap mendampingi",
+        "text": "Pelatihan langsung untuk tim Anda, lalu dukungan, pembaruan, dan perubahan seiring bisnis Anda tumbuh."
+      }
+    ],
+    "note": "Setup, pelatihan, dan perubahan khusus ditawarkan per perusahaan; paket dihargai per outlet per bulan.",
+    "noteLink": "Minta penawaran."
+  },
+  "faq": {
+    "heading": "Pertanyaan yang sering kami dengar",
+    "items": [
+      {
+        "q": "Apakah Anda punya sistem kasir (POS) untuk restoran dan kafe?",
+        "a": "Ya. POS restoran memiliki denah meja, pesanan dengan catatan, layar dapur dan tiket per stasiun, tagihan yang bisa dipisah dan digabung, beberapa metode pembayaran, shift, dan laci kas. Setiap hidangan punya resep, sehingga bahan baku keluar dari stok saat Anda menjual. Akuntansi, pembelian, dan pajak ada dalam sistem yang sama."
+      },
+      {
+        "q": "Bisakah tamu memesan dari ponsel mereka di meja?",
+        "a": "Bisa. Setiap meja punya kode QR. Tamu memindainya, memilih dari menu, dan mengirim pesanan, lalu staf Anda menerimanya sebelum diteruskan ke dapur atau bar. Tidak perlu aplikasi atau login. Di Wi-Fi restoran, ini berjalan di jaringan Anda sendiri. Untuk tamu yang memakai data seluler, sistem membutuhkan alamat internet (HTTPS), yang kami bantu pasang."
+      },
+      {
+        "q": "Apakah terhubung ke GoFood, GrabFood, dan ShopeeFood?",
+        "a": "Belum otomatis. Kasir mengetik pesanan dari tablet platform. Sistem lalu mencatat penjualan, menghitung komisi, mencatat tagihan platform kepada Anda, dan mencocokkan setiap pencairan dengan pesanannya. Impor otomatis belum tersedia saat ini."
+      },
+      {
+        "q": "Printer dan perangkat apa yang bisa dipakai POS restoran?",
+        "a": "Berjalan di browser pada PC, laptop, atau tablet. Tiket dapur, bar, dan struk bisa dicetak di printer thermal 58 mm atau 80 mm lewat jaringan Anda (misalnya Epson TM-T82 atau TM-T88, Xprinter, Sunmi), di printer USB yang dibagikan dari PC server, atau lewat jendela cetak browser biasa. Kami menguji printer Anda saat pemasangan, dan printer struk bisa membuka laci kas."
+      },
+      {
+        "q": "Bisakah menambahkan biaya layanan dan PPN ke tagihan?",
+        "a": "Bisa. Anda dapat mengatur biaya layanan, biaya kemasan atau antar menurut jenis tagihan, dan persentase PPN (11% secara bawaan). Tagihan yang sudah dibayar mempertahankan persentase saat dibayar. Mohon konfirmasikan tarif yang tepat dengan konsultan pajak Anda."
+      },
+      {
+        "q": "Apakah kami perlu hosting cloud atau internet yang terus-menerus?",
+        "a": "Tidak. Innologic berjalan di komputer atau server kecil di kantor Anda, dan staf memakainya di browser lewat jaringan Anda. Akses jarak jauh yang aman bisa diatur jika Anda membutuhkannya."
+      },
+      {
+        "q": "Bisakah menangani beberapa cabang atau perusahaan?",
+        "a": "Bisa. Cabang dan departemen bisa dilacak terpisah, dan setiap perusahaan memiliki pembukuannya sendiri, dengan penagihan antar perusahaan dan laporan grup."
+      },
+      {
+        "q": "Bisakah kami membawa data produk dan pelanggan yang sudah ada?",
+        "a": "Bisa. Kami membantu mengimpor produk, pelanggan, vendor, dan saldo awal agar Anda tidak mulai dari nol."
+      },
+      {
+        "q": "Apakah data kami aman?",
+        "a": "Pengguna hanya melihat apa yang diizinkan perannya, perubahan dicatat dalam log aktivitas, dan login dua faktor tersedia. Kami mengatur pencadangan rutin dan menyarankan salinan di drive kedua atau penyimpanan cloud."
+      },
+      {
+        "q": "Apakah hasil pajaknya siap dilaporkan?",
+        "a": "Sistem mencatat dan mengekspor data yang Anda butuhkan untuk PPN, PPh, dan e-Faktur Coretax. Mohon konfirmasikan tarif dan cara pelaporan dengan konsultan pajak Anda."
+      },
+      {
+        "q": "Berapa biayanya?",
+        "a": "Tergantung ukuran bisnis Anda dan seberapa banyak setup dan pelatihan yang dibutuhkan. Kirim pesan kepada kami untuk penawaran yang jelas."
+      }
+    ]
+  },
+  "talk": {
+    "heading": "Ceritakan bagaimana bisnis Anda berjalan hari ini",
+    "text": "Kami membalas secara pribadi, biasanya dalam satu hari kerja.",
+    "whatsapp": "Chat lewat WhatsApp",
+    "send": "Kirim pesan",
+    "note": "Kami memakai data Anda hanya untuk membalas Anda."
+  },
+  "footer": {
+    "tagline": "Software ERP, pemasangan, pelatihan, dan dukungan.",
+    "rights": "Innologic. Hak cipta dilindungi."
+  }
+}
