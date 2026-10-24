@@ -1,4 +1,4 @@
-# Website editor settings (Sveltia CMS). It edits two files, content.json (English) and content.id.json (Bahasa Indonesia, the default), in the GitHub repository robz1107/innologic-website.
+# Website editor settings (Sveltia CMS). It edits two files, content.json (English) and content.id.json (Bahasa Indonesia), in the GitHub repository robz1107/innologic-website.
 # Every change you save becomes a commit on the "main" branch, and GitHub Pages republishes the site about a minute later.
 # Keep the field names below exactly as they are: they must match content.json.
 backend:

@@ -11,7 +11,7 @@ Open `index.html`, find the line starting `var CONTACT` near the bottom and repl
 
 ## Languages
 
-The site has two languages. **Bahasa Indonesia is the default**; visitors switch with the ID / EN buttons in the top bar (the choice is remembered in their browser, and ?lang=en opens the English version).
+The site has two languages. **English is the default**; visitors switch to Bahasa Indonesia with the ID / EN buttons in the top bar (the choice is remembered in their browser, and ?lang=en opens the English version).
 
 - English text: content.json. Indonesian text: content.id.json. Both are edited at /admin (two entries: English and Bahasa Indonesia) and must keep the same structure and the same number of items.
 - Words that are not in the editor (the drawings of the restaurant POS, form labels, screenshot descriptions) are translated by a list inside index.html (I18N_ID).
