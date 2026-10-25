@@ -7,8 +7,6 @@
     "cta": "Hubungi kami"
   },
   "menu": {
-    "whatsapp": "Kirim pesan lewat WhatsApp",
-    "form": "Formulir kontak",
     "links": [
       "Satu hari kerja biasa",
       "Apa saja isinya",
@@ -17,17 +15,19 @@
       "Posisi kami",
       "Cara kami bekerja",
       "Pertanyaan"
-    ]
+    ],
+    "whatsapp": "Kirim pesan lewat WhatsApp",
+    "form": "Formulir kontak"
   },
   "hero": {
     "kicker": "Software bisnis, dipasangkan untuk Anda",
+    "headline": "Seluruh bisnis Anda,",
+    "headlineEm": "dalam satu sistem yang tenang.",
     "text": "Innologic adalah software ERP untuk perusahaan perdagangan, ritel, dan distribusi, dengan sistem kasir (POS) untuk restoran dan kafe. Pesanan, stok, pembelian, keuangan, dan pajak saling terhubung, jadi Anda tidak perlu lagi mengetik ulang dan bisa percaya pada angka Anda.",
     "whatsapp": "Kirim pesan lewat WhatsApp",
     "seeMore": "Lihat fungsinya",
     "fine": "Percakapan pertama gratis, dan kami akan jujur mengatakan jika ini bukan solusi yang tepat untuk Anda.",
-    "caption": "Dashboard sebuah perusahaan contoh. Semua tampilan di halaman ini memakai data contoh.",
-    "headline": "Seluruh bisnis Anda,",
-    "headlineEm": "dalam satu sistem yang tenang."
+    "caption": "Dashboard sebuah perusahaan contoh. Semua tampilan di halaman ini memakai data contoh."
   },
   "day": {
     "heading": "Satu hari kerja biasa, satu sistem yang terhubung",
@@ -163,9 +163,6 @@
     "mockNote": "Ilustrasi dengan contoh hidangan dan angka.",
     "flowHeading": "Dari meja sampai ke pembukuan",
     "flowSub": "Satu pesanan, lima langkah, tanpa mengetik dua kali.",
-    "featuresHeading": "Apa saja yang dicakup POS restoran",
-    "featuresSub": "Semua yang dibutuhkan di lantai restoran, dengan back office di belakangnya.",
-    "note": "Belum termasuk saat ini: pemesanan dari website atau aplikasi Anda sendiri, dan impor otomatis pesanan aplikasi pesan antar (GoFood, GrabFood, ShopeeFood), yang diinput manual oleh kasir. Jika Anda membutuhkannya, beri tahu kami. Struk, biaya layanan, dan PPN sebaiknya dikonfirmasikan dengan konsultan pajak Anda.",
     "flow": [
       {
         "title": "Buka meja",
@@ -188,6 +185,8 @@
         "text": "Bahan baku keluar dari stok sesuai resep dan penjualan masuk ke laporan harian dan pembukuan."
       }
     ],
+    "featuresHeading": "Apa saja yang dicakup POS restoran",
+    "featuresSub": "Semua yang dibutuhkan di lantai restoran, dengan back office di belakangnya.",
     "cards": [
       {
         "title": "Meja dan denah lantai",
@@ -255,7 +254,8 @@
         "title": "Member loyalty",
         "text": "Tamu bergabung sebagai member di kasir atau dengan memindai kode QR, dan mendapat poin di setiap tagihan yang dibayar. Tentukan tier Anda sendiri (misalnya Silver dan Gold) dengan hadiah lebih besar, biarkan tamu membayar sebagian tagihan dengan poin, beri hidangan ulang tahun, dan atur lama masa berlaku keanggotaan. Laporan menampilkan member teratas serta poin yang didapat, dipakai, dan kedaluwarsa."
       }
-    ]
+    ],
+    "note": "Belum termasuk saat ini: pemesanan dari website atau aplikasi Anda sendiri, dan impor otomatis pesanan aplikasi pesan antar (GoFood, GrabFood, ShopeeFood), yang diinput manual oleh kasir. Jika Anda membutuhkannya, beri tahu kami. Struk, biaya layanan, dan PPN sebaiknya dikonfirmasikan dengan konsultan pajak Anda."
   },
   "pricing": {
     "heading": "Paket dan harga untuk restoran dan kafe",
@@ -284,32 +284,164 @@
       }
     ],
     "rows": [
-      { "label": "Layar kasir, mode tablet, struk, dan printer", "cells": ["Ya", "Ya", "Ya"] },
-      { "label": "Denah meja, pindah dan gabung meja, pisah tagihan", "cells": ["Ya", "Ya", "Ya"] },
-      { "label": "Menu dengan kategori, tiket dapur dan bar", "cells": ["Ya", "Ya", "Ya"] },
-      { "label": "Stok opname dan laporan penjualan harian", "cells": ["Ya", "Ya", "Ya"] },
-      { "label": "Pembelian dan pemasok", "cells": ["Tidak", "Ya", "Ya"] },
-      { "label": "Voucher dan promosi", "cells": ["Tidak", "Ya", "Ya"] },
-      { "label": "Data pelanggan", "cells": ["Tidak", "Ya", "Ya"] },
-      { "label": "Tamu memesan dari meja lewat kode QR", "cells": ["Tidak", "Ya", "Ya"] },
-      { "label": "Kontrol biaya: food cost, bahan terbuang, dan makan karyawan", "cells": ["Tidak", "Ya", "Ya"] },
-      { "label": "Kas dan laporan lainnya", "cells": ["Tidak", "Ya", "Ya"] },
-      { "label": "Akuntansi, rekonsiliasi bank, anggaran, dan pajak", "cells": ["Tidak", "Tidak", "Ya"] },
-      { "label": "Dashboard pemilik, menu engineering, dan prime cost", "cells": ["Tidak", "Tidak", "Ya"] },
-      { "label": "Pemantauan kecurangan kasir dengan PIN supervisor", "cells": ["Tidak", "Tidak", "Ya"] },
-      { "label": "Member loyalty: poin, tier, dan hadiah ulang tahun", "cells": ["Tidak", "Tidak", "Ya"] },
-      { "label": "Pesanan GoFood, GrabFood, dan ShopeeFood (diinput kasir)", "cells": ["Tidak", "Tidak", "Ya"] },
-      { "label": "Perusahaan dalam satu grup", "cells": ["1", "Hingga 5", "Hingga 10"] },
-      { "label": "Terminal kasir per perusahaan", "cells": ["1", "Hingga 5", "Hingga 20"] },
-      { "label": "Pengguna", "cells": ["Hingga 5", "Hingga 10", "Hingga 30"] },
-      { "label": "Perangkat (tablet dan PC)", "cells": ["Hingga 3", "Hingga 10", "Hingga 20"] }
+      {
+        "label": "Layar kasir, mode tablet, struk, dan printer",
+        "cells": [
+          "Ya",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Denah meja, pindah dan gabung meja, pisah tagihan",
+        "cells": [
+          "Ya",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Menu dengan kategori, tiket dapur dan bar",
+        "cells": [
+          "Ya",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Stok opname dan laporan penjualan harian",
+        "cells": [
+          "Ya",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Pembelian dan pemasok",
+        "cells": [
+          "Tidak",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Voucher dan promosi",
+        "cells": [
+          "Tidak",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Data pelanggan",
+        "cells": [
+          "Tidak",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Tamu memesan dari meja lewat kode QR",
+        "cells": [
+          "Tidak",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Kontrol biaya: food cost, bahan terbuang, dan makan karyawan",
+        "cells": [
+          "Tidak",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Kas dan laporan lainnya",
+        "cells": [
+          "Tidak",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Akuntansi, rekonsiliasi bank, anggaran, dan pajak",
+        "cells": [
+          "Tidak",
+          "Tidak",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Dashboard pemilik, menu engineering, dan prime cost",
+        "cells": [
+          "Tidak",
+          "Tidak",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Pemantauan kecurangan kasir dengan PIN supervisor",
+        "cells": [
+          "Tidak",
+          "Tidak",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Member loyalty: poin, tier, dan hadiah ulang tahun",
+        "cells": [
+          "Tidak",
+          "Tidak",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Pesanan GoFood, GrabFood, dan ShopeeFood (diinput kasir)",
+        "cells": [
+          "Tidak",
+          "Tidak",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Perusahaan dalam satu grup",
+        "cells": [
+          "1",
+          "Hingga 5",
+          "Hingga 10"
+        ]
+      },
+      {
+        "label": "Terminal kasir per perusahaan",
+        "cells": [
+          "1",
+          "Hingga 5",
+          "Hingga 20"
+        ]
+      },
+      {
+        "label": "Pengguna",
+        "cells": [
+          "Hingga 5",
+          "Hingga 10",
+          "Hingga 20"
+        ]
+      },
+      {
+        "label": "Perangkat (tablet dan PC)",
+        "cells": [
+          "Hingga 3",
+          "Hingga 10",
+          "Hingga 20"
+        ]
+      }
     ],
     "note": "Harga per outlet per bulan, belum termasuk PPN dan perangkat keras. Biaya setup mencakup instalasi, impor menu, pengaturan pajak dan printer, serta pelatihan. Innologic Trade (untuk perdagangan dan distribusi) mengikuti tiga tingkat harga yang sama: beri tahu kebutuhan Anda dan kami akan menjelaskan isi setiap paket."
   },
   "compare": {
     "heading": "Posisi Innologic",
     "sub": "Gambaran umum yang jujur. Setiap bisnis dan produk berbeda.",
-    "note": "Kami tim kecil. Jika hari ini Anda membutuhkan perencanaan produksi pabrik atau penggajian, sistem yang lebih besar mungkin lebih cocok, dan kami akan mengatakannya.",
     "columns": [
       "Spreadsheet",
       "Aplikasi akuntansi dasar",
@@ -317,13 +449,62 @@
       "Innologic"
     ],
     "rows": [
-      { "label": "Pesanan, stok, dan pembukuan terhubung", "cells": ["Manual", "Sering terbatas", "Ya", "Ya"] },
-      { "label": "Stok per gudang", "cells": ["Manual", "Bervariasi", "Ya", "Ya"] },
-      { "label": "Beberapa perusahaan dalam satu grup", "cells": ["Sulit", "Bervariasi", "Ya", "Ya"] },
-      { "label": "Waktu untuk mulai", "cells": ["Langsung", "Hitungan hari", "Berbulan-bulan", "Hitungan minggu, dengan bantuan kami"] },
-      { "label": "Berjalan di server Anda sendiri", "cells": ["Ya", "Sering hanya cloud", "Sering", "Ya"] },
-      { "label": "Jalur langsung ke orang yang membuatnya", "cells": ["Tidak ada", "Meja bantuan", "Lewat mitra", "Ya"] }
-    ]
+      {
+        "label": "Pesanan, stok, dan pembukuan terhubung",
+        "cells": [
+          "Manual",
+          "Sering terbatas",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Stok per gudang",
+        "cells": [
+          "Manual",
+          "Bervariasi",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Beberapa perusahaan dalam satu grup",
+        "cells": [
+          "Sulit",
+          "Bervariasi",
+          "Ya",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Waktu untuk mulai",
+        "cells": [
+          "Langsung",
+          "Hitungan hari",
+          "Berbulan-bulan",
+          "Hitungan minggu, dengan bantuan kami"
+        ]
+      },
+      {
+        "label": "Berjalan di server Anda sendiri",
+        "cells": [
+          "Ya",
+          "Sering hanya cloud",
+          "Sering",
+          "Ya"
+        ]
+      },
+      {
+        "label": "Jalur langsung ke orang yang membuatnya",
+        "cells": [
+          "Tidak ada",
+          "Meja bantuan",
+          "Lewat mitra",
+          "Ya"
+        ]
+      }
+    ],
+    "note": "Kami tim kecil. Jika hari ini Anda membutuhkan perencanaan produksi pabrik atau penggajian, sistem yang lebih besar mungkin lebih cocok, dan kami akan mengatakannya."
   },
   "how": {
     "heading": "Cara kami bekerja dengan Anda",
@@ -402,7 +583,7 @@
     "note": "Kami memakai data Anda hanya untuk membalas Anda."
   },
   "footer": {
-    "tagline": "Software ERP, pemasangan, pelatihan, dan dukungan.",
-    "rights": "Innologic. Hak cipta dilindungi."
+    "rights": "Innologic. Hak cipta dilindungi.",
+    "tagline": "Software ERP, pemasangan, pelatihan, dan dukungan."
   }
 }
