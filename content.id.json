@@ -12,13 +12,13 @@
   },
   "hero": {
     "kicker": "Software bisnis, dipasangkan untuk Anda",
-    "headline": "Seluruh bisnis Anda,",
-    "headlineEm": "dalam satu sistem yang tenang.",
     "text": "Innologic membuat software untuk perusahaan yang berjualan, melayani, dan membangun: ERP untuk perdagangan dan distribusi, sistem kasir (POS) untuk toko dan restoran, serta software untuk developer dan pengelola properti. Semuanya saling terhubung, jadi Anda tidak perlu mengetik ulang dan bisa percaya pada angka Anda.",
     "whatsapp": "Kirim pesan lewat WhatsApp",
     "seeMore": "Lihat fungsinya",
     "fine": "Percakapan pertama gratis, dan kami akan jujur mengatakan jika ini bukan solusi yang tepat untuk Anda.",
-    "caption": "Dashboard sebuah perusahaan contoh. Semua tampilan di halaman ini memakai data contoh."
+    "caption": "Dashboard sebuah perusahaan contoh. Semua tampilan di halaman ini memakai data contoh.",
+    "headline": "Seluruh bisnis Anda,",
+    "headlineEm": "dalam satu sistem yang tenang."
   },
   "day": {
     "heading": "Satu hari kerja biasa, satu sistem yang terhubung",
@@ -154,6 +154,9 @@
     "mockNote": "Sebuah restoran contoh. Semua tampilan memakai data contoh.",
     "flowHeading": "Dari meja sampai ke pembukuan",
     "flowSub": "Satu pesanan, lima langkah, tanpa mengetik dua kali.",
+    "featuresHeading": "Apa saja yang dicakup POS restoran",
+    "featuresSub": "Semua yang dibutuhkan di lantai restoran, dengan back office di belakangnya.",
+    "note": "Belum termasuk saat ini: pemesanan dari website atau aplikasi Anda sendiri, dan impor otomatis pesanan aplikasi pesan antar (GoFood, GrabFood, ShopeeFood), yang diinput manual oleh kasir. Jika Anda membutuhkannya, beri tahu kami. Struk, biaya layanan, dan PPN sebaiknya dikonfirmasikan dengan konsultan pajak Anda.",
     "flow": [
       {
         "title": "Buka meja",
@@ -176,8 +179,6 @@
         "text": "Bahan baku keluar dari stok sesuai resep dan penjualan masuk ke laporan harian dan pembukuan."
       }
     ],
-    "featuresHeading": "Apa saja yang dicakup POS restoran",
-    "featuresSub": "Semua yang dibutuhkan di lantai restoran, dengan back office di belakangnya.",
     "cards": [
       {
         "title": "Meja dan denah lantai",
@@ -245,8 +246,7 @@
         "title": "Member loyalty",
         "text": "Tamu bergabung sebagai member di kasir atau dengan memindai kode QR, dan mendapat poin di setiap tagihan yang dibayar. Tentukan tier Anda sendiri (misalnya Silver dan Gold) dengan hadiah lebih besar, biarkan tamu membayar sebagian tagihan dengan poin, beri hidangan ulang tahun, dan atur lama masa berlaku keanggotaan. Laporan menampilkan member teratas serta poin yang didapat, dipakai, dan kedaluwarsa."
       }
-    ],
-    "note": "Belum termasuk saat ini: pemesanan dari website atau aplikasi Anda sendiri, dan impor otomatis pesanan aplikasi pesan antar (GoFood, GrabFood, ShopeeFood), yang diinput manual oleh kasir. Jika Anda membutuhkannya, beri tahu kami. Struk, biaya layanan, dan PPN sebaiknya dikonfirmasikan dengan konsultan pajak Anda."
+    ]
   },
   "pricing": {
     "heading": "Paket dan harga untuk restoran dan kafe",
@@ -433,6 +433,7 @@
   "compare": {
     "heading": "Posisi Innologic",
     "sub": "Gambaran umum yang jujur. Setiap bisnis dan produk berbeda.",
+    "note": "Kami tim kecil. Jika hari ini Anda membutuhkan perencanaan produksi pabrik atau penggajian, sistem yang lebih besar mungkin lebih cocok, dan kami akan mengatakannya.",
     "columns": [
       "Spreadsheet",
       "Aplikasi akuntansi dasar",
@@ -494,8 +495,7 @@
           "Ya"
         ]
       }
-    ],
-    "note": "Kami tim kecil. Jika hari ini Anda membutuhkan perencanaan produksi pabrik atau penggajian, sistem yang lebih besar mungkin lebih cocok, dan kami akan mengatakannya."
+    ]
   },
   "how": {
     "heading": "Cara kami bekerja dengan Anda",
@@ -574,7 +574,7 @@
     "note": "Kami memakai data Anda hanya untuk membalas Anda."
   },
   "footer": {
-    "rights": "Innologic. Hak cipta dilindungi.",
-    "tagline": "Software ERP, pemasangan, pelatihan, dan dukungan."
+    "tagline": "Software ERP, pemasangan, pelatihan, dan dukungan.",
+    "rights": "Innologic. Hak cipta dilindungi."
   }
 }
