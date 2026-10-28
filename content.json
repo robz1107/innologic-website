@@ -1,33 +1,24 @@
 {
   "meta": {
     "title": "Innologic | Business software that follows your whole day",
-    "description": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax in one calm system, set up and supported by the people who build it."
+    "description": "Innologic builds business software: ERP for trading, retail and distribution, a point of sale for shops and for restaurants and cafés, and software for property developers and property managers. Set up and supported by the people who build it."
   },
   "topbar": {
     "cta": "Talk to us"
   },
   "menu": {
-    "links": [
-      "One ordinary day",
-      "What is inside",
-      "Restaurant POS",
-      "Pricing",
-      "Where we fit",
-      "How we work",
-      "Questions"
-    ],
     "whatsapp": "Message us on WhatsApp",
     "form": "Contact form"
   },
   "hero": {
     "kicker": "Business software, set up for you",
-    "headline": "Your whole business,",
-    "headlineEm": "in one calm system.",
-    "text": "Innologic is ERP software for trading, retail and distribution companies, with a point of sale for restaurants and cafés. Orders, stock, purchasing, money and tax stay connected, so you stop retyping and start trusting your numbers.",
+    "text": "Innologic builds software for companies that sell, serve and build: ERP for trading and distribution, a point of sale for shops and for restaurants, and software for property developers and managers. Everything stays connected, so you stop retyping and start trusting your numbers.",
     "whatsapp": "Message us on WhatsApp",
     "seeMore": "See what it does",
     "fine": "The first conversation is free, and we will tell you honestly if it is not the right fit.",
-    "caption": "The dashboard of a demo company. All screens on this page show sample data."
+    "caption": "The dashboard of a demo company. All screens on this page show sample data.",
+    "headline": "Your whole business,",
+    "headlineEm": "in one calm system."
   },
   "day": {
     "heading": "One ordinary day, one connected system",
@@ -160,9 +151,12 @@
     "text": "Tables, kitchen, bill and stock work as one. The waiter takes the order, the kitchen gets its ticket, the guest pays, and your ingredients and books update by themselves.",
     "demo": "Ask for a restaurant demo",
     "features": "See the features",
-    "mockNote": "An illustration with sample dishes and numbers.",
+    "mockNote": "A demo restaurant. All screens show sample data.",
     "flowHeading": "From the table to the books",
     "flowSub": "One order, five steps, nothing typed twice.",
+    "featuresHeading": "What the restaurant POS covers",
+    "featuresSub": "Everything the floor needs, with the back office behind it.",
+    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor.",
     "flow": [
       {
         "title": "Open the table",
@@ -185,8 +179,6 @@
         "text": "Ingredients leave stock by recipe and the sale lands in the day's report and the books."
       }
     ],
-    "featuresHeading": "What the restaurant POS covers",
-    "featuresSub": "Everything the floor needs, with the back office behind it.",
     "cards": [
       {
         "title": "Tables and floor plan",
@@ -254,8 +246,7 @@
         "title": "Loyalty members",
         "text": "Guests join as members at the cashier or by scanning a QR code, and earn points on every paid bill. Set your own tiers (for example Silver and Gold) with bigger rewards, let guests pay part of the bill with points, give a birthday dish, and set how long a membership lasts. Reports show your top members and points earned, used and expired."
       }
-    ],
-    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor."
+    ]
   },
   "pricing": {
     "heading": "Plans and prices for restaurants and cafés",
@@ -417,7 +408,7 @@
         "cells": [
           "1",
           "Up to 5",
-          "Up to 10"
+          "Up to 20"
         ]
       },
       {
@@ -425,15 +416,15 @@
         "cells": [
           "Up to 5",
           "Up to 10",
-          "Up to 20"
+          "Up to 30"
         ]
       },
       {
         "label": "Devices (tablets and PCs)",
         "cells": [
           "Up to 3",
-          "Up to 5",
-          "Up to 10"
+          "Up to 10",
+          "Up to 20"
         ]
       }
     ],
@@ -442,6 +433,7 @@
   "compare": {
     "heading": "Where Innologic fits",
     "sub": "An honest, general picture. Every business and product is different.",
+    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.",
     "columns": [
       "Spreadsheets",
       "Basic accounting apps",
@@ -503,8 +495,7 @@
           "Yes"
         ]
       }
-    ],
-    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so."
+    ]
   },
   "how": {
     "heading": "How we work with you",
@@ -583,7 +574,7 @@
     "note": "We use your details only to reply to you."
   },
   "footer": {
-    "rights": "Innologic. All rights reserved.",
-    "tagline": "ERP software, setup, training and support."
+    "tagline": "ERP software, setup, training and support.",
+    "rights": "Innologic. All rights reserved."
   }
 }

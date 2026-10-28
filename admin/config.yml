@@ -41,13 +41,6 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Menu links (in the order of the sections; the number of links stays at 7)
-                name: links
-                widget: list
-                min: 7
-                max: 7
-                collapsed: false
-                field: { label: Link text, name: item, widget: string }
               - { label: WhatsApp button, name: whatsapp, widget: string }
               - { label: Contact form button, name: form, widget: string }
 
@@ -292,13 +285,6 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - label: Menu links (in the order of the sections; the number of links stays at 7)
-                name: links
-                widget: list
-                min: 7
-                max: 7
-                collapsed: false
-                field: { label: Link text, name: item, widget: string }
               - { label: WhatsApp button, name: whatsapp, widget: string }
               - { label: Contact form button, name: form, widget: string }
 
