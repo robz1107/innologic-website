@@ -12,13 +12,13 @@
   },
   "hero": {
     "kicker": "Business software, set up for you",
-    "headline": "Your whole business,",
-    "headlineEm": "in one calm system.",
     "text": "Innologic builds software for companies that sell, serve and build: ERP for trading and distribution, a point of sale for shops and for restaurants, and software for property developers and managers. Everything stays connected, so you stop retyping and start trusting your numbers.",
     "whatsapp": "Message us on WhatsApp",
     "seeMore": "See what it does",
     "fine": "The first conversation is free, and we will tell you honestly if it is not the right fit.",
-    "caption": "The dashboard of a demo company. All screens on this page show sample data."
+    "caption": "The dashboard of a demo company. All screens on this page show sample data.",
+    "headline": "Your whole business,",
+    "headlineEm": "in one calm system."
   },
   "day": {
     "heading": "One ordinary day, one connected system",
@@ -154,6 +154,9 @@
     "mockNote": "A demo restaurant. All screens show sample data.",
     "flowHeading": "From the table to the books",
     "flowSub": "One order, five steps, nothing typed twice.",
+    "featuresHeading": "What the restaurant POS covers",
+    "featuresSub": "Everything the floor needs, with the back office behind it.",
+    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor.",
     "flow": [
       {
         "title": "Open the table",
@@ -176,8 +179,6 @@
         "text": "Ingredients leave stock by recipe and the sale lands in the day's report and the books."
       }
     ],
-    "featuresHeading": "What the restaurant POS covers",
-    "featuresSub": "Everything the floor needs, with the back office behind it.",
     "cards": [
       {
         "title": "Tables and floor plan",
@@ -245,8 +246,7 @@
         "title": "Loyalty members",
         "text": "Guests join as members at the cashier or by scanning a QR code, and earn points on every paid bill. Set your own tiers (for example Silver and Gold) with bigger rewards, let guests pay part of the bill with points, give a birthday dish, and set how long a membership lasts. Reports show your top members and points earned, used and expired."
       }
-    ],
-    "note": "Not included today: ordering from your own website or app, and automatic import of delivery-app orders (GoFood, GrabFood, ShopeeFood), which the cashier enters by hand. If you need them, tell us. Receipts, service charge and VAT should be checked with your tax advisor."
+    ]
   },
   "pricing": {
     "heading": "Plans and prices for restaurants and cafés",
@@ -254,21 +254,21 @@
     "plans": [
       {
         "name": "Basic",
-        "price": "Rp 199,000",
+        "price": "Rp 299,000",
         "per": "per outlet, per month",
         "text": "For a small restaurant or café: cashier, kitchen, menu, tables and daily reports.",
         "setup": "One-time setup: Rp 2,000,000"
       },
       {
         "name": "Advance",
-        "price": "Rp 399,000",
+        "price": "Rp 499,000",
         "per": "per outlet, per month",
         "text": "Adds purchasing, promotions, customers, guest ordering by QR and cost control.",
         "setup": "One-time setup: Rp 5,000,000"
       },
       {
         "name": "Pro",
-        "price": "Rp 899,000",
+        "price": "Rp 999,000",
         "per": "per outlet, per month",
         "text": "Everything: accounting, tax, owner dashboard, loyalty members, fraud watch and groups of outlets.",
         "setup": "One-time setup: Rp 8,000,000"
@@ -433,6 +433,7 @@
   "compare": {
     "heading": "Where Innologic fits",
     "sub": "An honest, general picture. Every business and product is different.",
+    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so.",
     "columns": [
       "Spreadsheets",
       "Basic accounting apps",
@@ -494,8 +495,7 @@
           "Yes"
         ]
       }
-    ],
-    "note": "We are a small team. If you need factory production planning or payroll today, a larger system may suit you better, and we will say so."
+    ]
   },
   "how": {
     "heading": "How we work with you",
@@ -574,7 +574,7 @@
     "note": "We use your details only to reply to you."
   },
   "footer": {
-    "rights": "Innologic. All rights reserved.",
-    "tagline": "ERP software, setup, training and support."
+    "tagline": "ERP software, setup, training and support.",
+    "rights": "Innologic. All rights reserved."
   }
 }
