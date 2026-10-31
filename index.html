@@ -995,7 +995,9 @@ var CONTACT = { whatsapp: '6282231783609', email: '', formKey: '', formUrl: 'htt
     b.addEventListener('click', function () {
       var l = b.getAttribute('data-lang'); if (l === LANG) return;
       try { localStorage.setItem('lang', l); } catch (e) {}
-      var u = new URL(location.href); u.searchParams.delete('lang'); location.href = u.toString();
+      // assigning location.href to the same address (only the #hash differs, or nothing) is not a reload, so reload explicitly
+      var u = new URL(location.href);
+      if (u.searchParams.has('lang')) { u.searchParams.delete('lang'); location.replace(u.toString()); } else location.reload();
     });
   });
 
